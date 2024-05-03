@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90vw;
+    margin: auto;
+    font-family: "Yle Next", sans-serif;
+    font-weight: 500;
+}
+
+p {
+    display: flex;
+    gap: 15px;
+}
+
+.button {
+    border-radius: 500px;
+    padding: 12px 18px;
+    background-color: purple;
+    color: white;
+
+}

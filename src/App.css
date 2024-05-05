@@ -31,6 +31,7 @@
 .headeri {
   width: 100vw;
   background: url("/public/resources/images/tausta1.png");
+  background-attachment: fixed;
   background-size: 100%;
   font-family: "Yle Next", sans-serif;
   color: white;
@@ -38,6 +39,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.content {
+  width: 100vw;
+  background: url("/public/resources/images/tausta2.png");
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 0;
+  gap: 10px;
+
+
 }
 
 .headeri h1 {

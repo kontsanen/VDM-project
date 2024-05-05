@@ -1,8 +1,14 @@
+.navbarcontainer {
+    width: 100vw;
+ display: flex;
+ position: absolute;
+}
 .navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100vw;
+    max-width: 1100px;
     margin: auto;
     font-family: "Yle Next", sans-serif;
     padding: 5px 20px;
@@ -11,7 +17,8 @@
     font-weight: 700;
     background: none;
     color: white;
-    position: absolute;
+    
+    align-self: center;
 }
 
 p {

@@ -9,8 +9,9 @@
     box-sizing: border-box;
     font-size: 15px;
     font-weight: 700;
-    background: #202020;
+    background: none;
     color: white;
+    position: absolute;
 }
 
 p {

@@ -1,5 +1,5 @@
 import "./navbar.css";
-import "./YleNextVar.woff2";
+import '../fonts.css';
 
 function Navbar () {
     return (

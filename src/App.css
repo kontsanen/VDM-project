@@ -28,6 +28,25 @@
   color: #61dafb;
 }
 
+.headeri {
+  width: 100vw;
+  background: url("/public/resources/images/tausta1.png");
+  background-size: 100%;
+  font-family: "Yle Next", sans-serif;
+  color: white;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headeri h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 600;
+  text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.4);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

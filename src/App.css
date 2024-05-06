@@ -32,7 +32,7 @@
   width: 100vw;
   background: url("/public/resources/images/tausta1.png");
   background-attachment: fixed;
-  background-size: 100%;
+  background-size: cover;
   font-family: "Yle Next", sans-serif;
   color: white;
   height: 350px;
@@ -50,8 +50,9 @@
   justify-content: center;
   padding: 50px 0;
   gap: 10px;
-
-
+  font-family: "Yle Next", Arial, Helvetica, sans-serif;
+  font-size: 14;
+  font-weight: 400;
 }
 
 .headeri h1 {

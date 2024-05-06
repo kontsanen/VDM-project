@@ -11,12 +11,11 @@ function Navbar () {
       window.addEventListener('scroll', handleScroll);
       window.addEventListener('resize', handleResize);
   
-      
       return () => {
         window.removeEventListener('scroll', handleScroll);
         window.removeEventListener('resize', handleResize);
       }
-    }, [handleResize, handleScroll]);
+    }, []);
   
     const handleScroll = () => {
       setIsOpaque(window.scrollY > windowHeight / 4);

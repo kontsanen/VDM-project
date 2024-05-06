@@ -5,17 +5,26 @@ import React, { useState, useEffect } from 'react';
 function Navbar () {
     const [isOpaque, setIsOpaque] = useState(false);
     const [isShortened, setIsShortened] = useState(false);
+    const windowHeight = window.innerHeight;
 
     useEffect(() => {
       window.addEventListener('scroll', handleScroll);
+      window.addEventListener('resize', handleResize);
   
       // Cleanup function to remove event listener when component unmounts
-      return () => window.removeEventListener('scroll', handleScroll);
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+        window.removeEventListener('resize', handleResize);
+      }
     }, []);
   
     const handleScroll = () => {
-      setIsOpaque(window.scrollY > 90);
-      setIsShortened(window.scrollY > 300);
+      setIsOpaque(window.scrollY > windowHeight / 4);
+      setIsShortened(window.scrollY > windowHeight * 0.70);
+    };
+
+    const handleResize = () => {
+        windowHeight = window.innerHeight; // Update windowHeight on resize
     };
 
     return (

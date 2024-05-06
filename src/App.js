@@ -8,8 +8,13 @@ function App() {
     
     <div className="App">
       <Navbar />
-      <div className="headeri">
-        <h1>Yapping otsikko tähännäin</h1>
+      <div className="header">
+
+ 
+          <h1>Yapping otsikko tähännäin</h1>
+          <h1>Oletko koskaan miettinyt, kuinka vahva medialukutaito juuri sinulla on?</h1>
+          <a className="bigbutton" href="testi">Testaa nyt!</a>
+
       </div>
       <div className="content">
         {/*  kaikki sivun kontentti tulee tähän contentin sisään */}

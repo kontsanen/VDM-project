@@ -28,17 +28,48 @@
   color: #61dafb;
 }
 
-.headeri {
+.header {
   width: 100vw;
+  height: 85vh;
+
+  background-color: #000000;
   background: url("/public/resources/images/tausta1.png");
   background-attachment: fixed;
   background-size: cover;
-  font-family: "Yle Next", sans-serif;
+  font-family: "Yle Next", Arial, Helvetica, sans-serif;
   color: white;
-  height: 350px;
+  padding: 120px 20px 50px 20px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
+  gap: 15px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 38px;
+  font-weight: 600;
+  text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.4);
+  max-width: 800px;
+}
+
+
+
+.bigbutton {
+  border-radius: 500px;
+  padding: 10px 35px;
+  background: linear-gradient(-42deg, #eb8dc5, #9a8fe8);
+  color: #ffffff;
+  transition-duration: 0.9s;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.bigbutton:hover {
+  background: linear-gradient(-63deg, #af6993, #7068aa);
 }
 
 .content {
@@ -55,12 +86,7 @@
   font-weight: 400;
 }
 
-.headeri h1 {
-  margin: 0;
-  font-size: 48px;
-  font-weight: 600;
-  text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.4);
-}
+
 
 @keyframes App-logo-spin {
   from {

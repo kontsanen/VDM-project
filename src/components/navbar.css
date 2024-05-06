@@ -26,13 +26,14 @@
 
 .opaqueNavbar {
     background: #F8EDF1;
-    border-bottom: 1px solid #867594;
+    
     color: #181818;
     transition: ease-in-out 0.3s;
 }
 
 .shortenedNavbar {
     padding: 0px;
+    border-bottom: 1px solid #867594;
 }
 
 p {
@@ -68,14 +69,14 @@ p {
 }
 
 .opaqueNavbar .button {
-    background: linear-gradient(-42deg, #ECB2D5, #BAB4EB);
+    background: linear-gradient(-42deg, #eb8dc5, #9a8fe8);
     color: #ffffff;
     transition-duration: 0.3s;
     
 }
 
 .opaqueNavbar .button:hover {
-    background: linear-gradient(-63deg, #d097b9, #9993c4);
+    background: linear-gradient(-63deg, #af6993, #7068aa);
 }
 
 .navImage {

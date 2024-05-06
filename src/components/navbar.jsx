@@ -5,6 +5,7 @@ import React, { useState, useEffect } from 'react';
 function Navbar () {
     const [isOpaque, setIsOpaque] = useState(false);
     const [isShortened, setIsShortened] = useState(false);
+    const [borderActive, activateBorder] = useState(false);
     const windowHeight = window.innerHeight;
 
     useEffect(() => {
@@ -18,8 +19,9 @@ function Navbar () {
     }, []);
   
     const handleScroll = () => {
-      setIsOpaque(window.scrollY > windowHeight / 4);
-      setIsShortened(window.scrollY > windowHeight * 0.70);
+      setIsOpaque(window.scrollY > windowHeight * 0.20);
+      activateBorder(window.scrollY > windowHeight * 0.40);
+      setIsShortened(window.scrollY > windowHeight * 0.75);
     };
 
     const handleResize = () => {
@@ -27,7 +29,7 @@ function Navbar () {
     };
 
     return (
-        <div className={`navbarcontainer ${isOpaque ? 'opaqueNavbar' : ''} ${isShortened ? 'shortenedNavbar' : ''}`}>
+        <div className={`navbarcontainer ${isOpaque ? 'opaqueNavbar' : ''} ${borderActive ? 'borderBottom' : ''} ${isShortened ? 'shortenedNavbar' : ''}`}>
         <nav className="navbar">
             <p><a className="navImage" href="koti">
                 <img src={isOpaque ? "/resources/images/yle-logo-musta-crop.png" : "/resources/images/yle-logo-valkoinen-crop.png"} alt="Yle" width="38px" />

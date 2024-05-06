@@ -4,7 +4,7 @@
     position: fixed;
     color: white;
     background: none;
-    transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.4s;
     padding: 7px 0px;
 }
 .navbar {
@@ -28,11 +28,14 @@
     background: #F8EDF1;
     
     color: #181818;
-    transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.4s;
 }
 
 .shortenedNavbar {
     padding: 0px;
+}
+
+.borderBottom {
     border-bottom: 1px solid #867594;
 }
 

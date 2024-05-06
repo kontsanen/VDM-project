@@ -11,12 +11,12 @@ function Navbar () {
       window.addEventListener('scroll', handleScroll);
       window.addEventListener('resize', handleResize);
   
-      // Cleanup function to remove event listener when component unmounts
+      
       return () => {
         window.removeEventListener('scroll', handleScroll);
         window.removeEventListener('resize', handleResize);
       }
-    }, []);
+    }, [handleResize, handleScroll]);
   
     const handleScroll = () => {
       setIsOpaque(window.scrollY > windowHeight / 4);
@@ -24,7 +24,7 @@ function Navbar () {
     };
 
     const handleResize = () => {
-        windowHeight = window.innerHeight; // Update windowHeight on resize
+        windowHeight = window.innerHeight;
     };
 
     return (

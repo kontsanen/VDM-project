@@ -27,75 +27,34 @@ function App() {
           </div>
         </div>
 
-        <div>tähän väliin tulee video</div>
         <div className='videocontainer'>
-          <video controls autoplay loop onclick="">
+          <video autoplay loop onclick="">
             <source src="https://i.imgur.com/RMIeSpp.mp4" type="video/mp4" />
             Your browser does not support HTML video.
           </video>
+          <div></div>
         </div>
 
-        <div className='infosection'>
-          <h2>Mutta miten tämä kaikki toimii liibalaaba?</h2>
+        <div className='infosection flex-column'>
+          <h2 className='no-margin'>Mutta miten tämä kaikki toimii liibalaaba?</h2>
           <div>
-          <a className="bigbutton" href="testi">Lue lisää</a>
+          <a className="bigbutton" href="info">Lue lisää</a>
           </div>
-          <div>
-           <h4>Tai tsekkaa medialukutaitosi viimeisimpien tapahtumien kanssa!</h4>
-            <h4>v</h4>
+          <div className='flex-column'>
+           <h4 className='narrower no-margin'>Tai tsekkaa medialukutaitosi viimeisimpien tapahtumien kanssa!</h4>
+            <h4 className='no-margin'>v</h4>
           </div>
         </div>
 
-        <div>tähän tulee some-gridi</div>
-
-        <div>jou</div>
-        <div>kontsaa tähän</div>
-        <div>jotain</div>
-        <div>sisältöä</div>
-        <div>turhaaa</div>
-        <div>settiä</div>
-        <div>paskan</div>
-        <div>jauhantaa</div>
-        <div>jou</div>
-        <div>kontsaa tähän</div>
-        <div>jotain</div>
-        <div>sisältöä</div>
-        <div>turhaaa</div>
-        <div>settiä</div>
-        <div>paskan</div>
-        <div>jauhantaa</div>
-        <div>jou</div>
-        <div>kontsaa tähän</div>
-        <div>jotain</div>
-        <div>sisältöä</div>
-        <div>turhaaa</div>
-        <div>settiä</div>
-        <div>paskan</div>
-        <div>jauhantaa</div>
-        <div>jou</div>
-        <div>kontsaa tähän</div>
-        <div>jotain</div>
-        <div>sisältöä</div>
-        <div>turhaaa</div>
-        <div>settiä</div>
-        <div>paskan</div>
-        <div>jauhantaa</div>
-        <div>jou</div>
-        <div>kontsaa tähän</div>
-        <div>jotain</div>
-        <div>sisältöä</div>
-        <div>turhaaa</div>
-        <div>settiä</div>
-        <div>paskan</div>
-        <div>jauhantaa</div>
-        <div>jou</div>
-        <div>kontsaa tähän</div>
-        <div>jotain</div>
-        <div>sisältöä</div>
-        <div>turhaaa</div>
-        <div>settiä</div>
-        <div>paskan</div>
-        <div>jauhantaa</div>
+        <div className="grid-container">
+          <div className="grid-item"><img src="https://m.media-amazon.com/images/I/61bueMdnn0L._AC_UF1000,1000_QL80_.jpg" alt="kuva" height="100%" /></div>
+          <div className="grid-item"><img src="https://m.media-amazon.com/images/I/61bueMdnn0L._AC_UF1000,1000_QL80_.jpg" alt="kuva" height="100%" /></div>
+          <div className="grid-item"><img src="https://m.media-amazon.com/images/I/61bueMdnn0L._AC_UF1000,1000_QL80_.jpg" alt="kuva" height="100%" /></div>
+          <div className="grid-item"><img src="https://m.media-amazon.com/images/I/61bueMdnn0L._AC_UF1000,1000_QL80_.jpg" alt="kuva" height="100%" /></div>
+          <div className="grid-item"><img src="https://m.media-amazon.com/images/I/61bueMdnn0L._AC_UF1000,1000_QL80_.jpg" alt="kuva" height="100%" /></div>
+          <div className="grid-item"><img src="https://m.media-amazon.com/images/I/61bueMdnn0L._AC_UF1000,1000_QL80_.jpg" alt="kuva" height="100%" /></div>
+          <div className="grid-item"><img src="https://m.media-amazon.com/images/I/61bueMdnn0L._AC_UF1000,1000_QL80_.jpg" alt="kuva" height="100%" /></div>
+        </div>
       </div>
       <Footer />
     </div>

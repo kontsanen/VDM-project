@@ -89,7 +89,7 @@
 }
 
 .content {
-  width: 100vw;
+  width: 100%;
   background: url("/public/resources/images/tausta2.png");
   background-size: 100%;
   display: flex;
@@ -102,6 +102,17 @@
   font-size: 14;
   font-weight: 400;
   color: #181818;
+  box-sizing: border-box;
+}
+
+
+.videocontainer {
+  width: 100%;
+  max-width: 350px;
+}
+
+.videocontainer video {
+  width: 100%;
 }
 
 

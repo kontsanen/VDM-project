@@ -30,10 +30,9 @@
 
 .header {
   width: 100vw;
-  height: 45vh;
-
+  height: 35vh;
   background-color: #000000;
-  background: url("/public/resources/images/tausta1.png");
+  background: url("/public/resources/images/tausta1-more-darkened.png");
   background-attachment: fixed;
   background-size: cover;
   font-family: "Yle Next", Arial, Helvetica, sans-serif;
@@ -56,21 +55,20 @@
   gap: 15px;
 }
 
-.header h1 {
+.logoelement h1 {
   margin: 0;
-  font-size: 38px;
+  font-size: 45px;
   font-weight: 600;
   
   max-width: 800px;
   font-family: "Inter Tight" Arial, Helvetica, sans-serif;
   font-weight: bolder;
+  
 }
 
 .infosection {
   display: block;
   max-width: 600px;
-  
-  
 }
 
 .bigbutton {
@@ -96,7 +94,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 50px 0;
+  padding: 80px 10px;
   gap: 80px;
   font-family: "Yle Next", Arial, Helvetica, sans-serif;
   font-size: 14;

@@ -16,7 +16,7 @@ function Navbar () {
         window.removeEventListener('scroll', handleScroll);
         window.removeEventListener('resize', handleResize);
       }
-    }, []);
+    }, );
   
     const handleScroll = () => {
       setIsOpaque(window.scrollY > windowHeight * 0.08);

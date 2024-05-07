@@ -10,14 +10,20 @@ function App() {
       <Navbar />
       <div className="header">
 
- 
-          <h1>Yapping otsikko tähännäin</h1>
-          <h1>Oletko koskaan miettinyt, kuinka vahva medialukutaito juuri sinulla on?</h1>
-          <a className="bigbutton" href="testi">Testaa nyt!</a>
+          <div className='logoelement'>
+            <img src='/resources/images/yle-logo-valkoinen-crop.png' alt="Yle" height="70px" />
+            <h1>Omassa kuplassa</h1>
+          </div>
+
+          
 
       </div>
       <div className="content">
         {/*  kaikki sivun kontentti tulee tähän contentin sisään */}
+        <div className='infosection'>
+          <h2>Oletko koskaan miettinyt, kuinka vahva medialukutaito juuri sinulla on?</h2>
+          <a className="bigbutton" href="testi">Testaa nyt!</a>
+        </div>
         <div>jou</div>
         <div>kontsaa tähän</div>
         <div>jotain</div>

@@ -6,7 +6,7 @@ function Navbar () {
     const [isOpaque, setIsOpaque] = useState(false);
     const [isShortened, setIsShortened] = useState(false);
     const [borderActive, activateBorder] = useState(false);
-    const windowHeight = window.innerHeight;
+    let windowHeight = window.innerHeight;
 
     useEffect(() => {
       window.addEventListener('scroll', handleScroll);

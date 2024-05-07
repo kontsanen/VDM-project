@@ -22,9 +22,26 @@ function App() {
         {/*  kaikki sivun kontentti tulee tähän contentin sisään */}
         <div className='infosection'>
           <h2>Oletko koskaan miettinyt, kuinka vahva medialukutaito juuri sinulla on?</h2>
-          
+          <div>
           <a className="bigbutton" href="testi">Testaa nyt!</a>
+          </div>
         </div>
+
+        <div>tähän väliin tulee video</div>
+
+        <div className='infosection'>
+          <h2>Mutta miten tämä kaikki toimii liibalaaba?</h2>
+          <div>
+          <a className="bigbutton" href="testi">Lue lisää</a>
+          </div>
+          <div>
+           <h4>Tai tsekkaa medialukutaitosi viimeisimpien tapahtumien kanssa!</h4>
+            <h4>v</h4>
+          </div>
+        </div>
+
+        <div>tähän tulee some-gridi</div>
+
         <div>jou</div>
         <div>kontsaa tähän</div>
         <div>jotain</div>

@@ -28,7 +28,6 @@
     background: #F8EDF1;
     
     color: #181818;
-    transition: ease-in-out 0.4s;
 }
 
 .shortenedNavbar {
@@ -55,7 +54,7 @@ p {
 
 .opaqueNavbar a {
     color: #181818;
-    transition-duration: 0.3s;
+
 }
 
 .button {
@@ -64,7 +63,7 @@ p {
     background-color: white;
     color: rgb(58, 0, 50);
     text-decoration: none;
-    transition: linear 0.1s;
+    transition: ease-in-out 0.4s;
 }
 
 .button:hover {
@@ -74,7 +73,7 @@ p {
 .opaqueNavbar .button {
     background: linear-gradient(-42deg, #eb8dc5, #9a8fe8);
     color: #ffffff;
-    transition-duration: 0.3s;
+
     
 }
 

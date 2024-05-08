@@ -6,6 +6,7 @@
     background: none;
     transition: ease-in-out 0.4s;
     padding: 7px 0px;
+    z-index: 1000;;
 }
 .navbar {
     display: flex;

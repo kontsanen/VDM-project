@@ -27,11 +27,12 @@ function App() {
         </div>
 
         <div className='videocontainer'>
-          <video controls autoplay loop onclick="">
+          <video autoplay controls loop onclick="">
             <source src="https://i.imgur.com/RMIeSpp.mp4" type="video/mp4" />
             Your browser does not support HTML video.
           </video>
         </div>
+
 
         <div className='infosection flex-column'>
           <h2 className='no-margin'>Mutta miten tämä kaikki toimii liibalaaba?</h2>

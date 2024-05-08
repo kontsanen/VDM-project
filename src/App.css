@@ -38,7 +38,7 @@
   font-family: "Yle Next", Arial, Helvetica, sans-serif;
   font-weight: 800;
   color: white;
-  padding: 50px 20px 50px 20px;
+  padding: 60px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -109,10 +109,13 @@
 
 
 .videocontainer {
-  width: calc(100%);
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  max-width: 500px;
+  max-height: 80vh;
+  aspect-ratio: 5 / 7; /* Adjust this ratio based on your video */
 }
 
 
@@ -120,8 +123,7 @@
   border-radius: 12px;
   box-shadow: 10px 10px 0px rgba(24, 24, 24, 0.40);
   overflow: hidden;
-  max-width: 600px;
-  height: 80vh;
+  height: 100%;
   max-height: calc((100vw - 20px) * (7 / 5)); /*vaihdetaan lopullista videota varten haluttuun aspect ratioon!*/
   flex-wrap: wrap;
 }

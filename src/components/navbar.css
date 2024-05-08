@@ -61,10 +61,10 @@ p {
 .button {
     border-radius: 500px;
     padding: 8px 16px;
-    background: white;
+    background-color: white;
     color: rgb(58, 0, 50);
     text-decoration: none;
-    transition: color 0.15s linear, background 0.15s linear;
+    transition: color 0.15s linear, background-color 0.15s linear;
 }
 
 .button:hover {
@@ -72,15 +72,16 @@ p {
 }
 
 .opaqueNavbar .button {
-    background: linear-gradient(-42deg, #eb8dc5, #9a8fe8);
+    background: linear-gradient(-42deg, #f282c5cc, #9d94e3cc);
+    background-color: #b8b1e3;
     color: #ffffff;
-    transition: color 0.2s linear, background 0.2s linear;
+    transition: color 0.2s linear, background-color 0.2s linear;
 
     
 }
 
 .opaqueNavbar .button:hover {
-    background: linear-gradient(-63deg, #af6993, #7068aa);
+    background-color: #262626;
 }
 
 .navImage {

@@ -30,7 +30,7 @@
 
 .header {
   width: 100vw;
-  height: 35vh;
+  min-height: 35vh;
   background-color: #000000;
   background: url("/public/resources/images/tausta1-more-darkened.png");
   background-attachment: fixed;
@@ -45,6 +45,7 @@
   justify-content: center;
   box-sizing: border-box;
   gap: 15px;
+  
 }
 
 .logoelement {
@@ -53,11 +54,12 @@
   justify-content: center;
   align-items: center;
   gap: 15px;
+  padding-top: 10px;
 }
 
 .logoelement h1 {
   margin: 0;
-  font-size: 45px;
+  font-size: 44px;
   font-weight: 600;
   max-width: 800px;
   font-family: "Inter Tight" Arial, Helvetica, sans-serif;
@@ -73,8 +75,11 @@
 
 .bigbutton {
   border-radius: 500px;
-  padding: 10px 50px;
-  background: linear-gradient(-42deg, #eb8dc5, #9a8fe8);
+  padding: 9px 50px;
+  background: linear-gradient(-42deg, #f282c5cc, #9d94e3cc);
+  background-color: #b8b1e3;
+  transition: color 0.2s linear, background-color 0.2s linear;
+
   color: #ffffff;
   font-weight: 700;
   font-size: 20px;
@@ -82,7 +87,7 @@
 }
 
 .bigbutton:hover {
-  background: linear-gradient(-63deg, #af6993, #7068aa);
+  background-color: #262626;
 }
 
 .content {
@@ -187,3 +192,16 @@
     flex: 0 0 100%; /* All items on one line */
   }
 }
+
+@media screen and (max-width: 520px) {
+  .logoelement {
+    flex-direction: column;
+    padding-top: 50px;
+  }
+
+  .logoelement h1 {
+    font-size: 40px;
+  }
+}
+
+

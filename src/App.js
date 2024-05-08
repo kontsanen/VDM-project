@@ -11,7 +11,7 @@ function App() {
       <div className="header">
 
           <div className='logoelement'>
-            <img src='/resources/images/yle-logo-valkoinen-crop.png' alt="Yle" height="70px" />
+            <img src='/resources/images/yle-logo-valkoinen-crop.png' alt="Yle" height="65px" />
             <h1>Omassa kuplassa</h1>
           </div>
 

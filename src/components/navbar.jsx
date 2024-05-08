@@ -20,7 +20,7 @@ function Navbar () {
   
     const handleScroll = () => {
       setIsOpaque(window.scrollY > windowHeight * 0.08);
-      activateBorder(window.scrollY > windowHeight * 0.10);
+      activateBorder(window.scrollY > windowHeight * 0.08);
       setIsShortened(window.scrollY > windowHeight * 0.25);
     };
 

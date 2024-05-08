@@ -3,10 +3,10 @@
     display: flex;
     position: fixed;
     color: white;
-    background: none;
-    transition: ease-in-out 0.4s;
+    background-color: none;
     padding: 7px 0px;
-    z-index: 1000;;
+    z-index: 1000;
+    transition: padding 0.3s ease-in-out, background-color 0.4s linear;
 }
 .navbar {
     display: flex;
@@ -26,7 +26,7 @@
 }
 
 .opaqueNavbar {
-    background: #F8EDF1;
+    background-color: #F8EDF1;
     
     color: #181818;
 }
@@ -49,8 +49,8 @@ p {
     font-weight: bold;
     padding: 8px 0;
     text-decoration: none;
-    transition-duration: 0.3s;
     color: white;
+    transition: color 0.15s linear;
 }
 
 .opaqueNavbar a {
@@ -61,10 +61,10 @@ p {
 .button {
     border-radius: 500px;
     padding: 8px 16px;
-    background-color: white;
+    background: white;
     color: rgb(58, 0, 50);
     text-decoration: none;
-    transition: ease-in-out 0.4s;
+    transition: color 0.15s linear, background 0.15s linear;
 }
 
 .button:hover {
@@ -74,6 +74,7 @@ p {
 .opaqueNavbar .button {
     background: linear-gradient(-42deg, #eb8dc5, #9a8fe8);
     color: #ffffff;
+    transition: color 0.2s linear, background 0.2s linear;
 
     
 }

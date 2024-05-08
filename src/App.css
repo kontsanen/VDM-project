@@ -94,7 +94,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 80px 10px;
+  padding: 80px 15px;
   gap: 120px;
   font-family: "Yle Next", Arial, Helvetica, sans-serif;
   font-size: 14;
@@ -105,7 +105,7 @@
 
 
 .videocontainer {
-  width: calc(100% - 20px);
+  width: calc(100%);
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -118,7 +118,7 @@
   overflow: hidden;
   max-width: 600px;
   height: 80vh;
-  max-height: calc((100vw - 40px) * 7 / 5);
+  max-height: calc((100vw - 20px) * (7 / 5)); /*vaihdetaan lopullista videota varten haluttuun aspect ratioon!*/
   flex-wrap: wrap;
 }
 

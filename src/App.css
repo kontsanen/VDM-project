@@ -106,14 +106,19 @@
 
 .videocontainer {
   width: calc(100% - 20px);
-  max-width: 500px;
+  max-width: 90vw;
   height: 80vh;
 }
 
 .videocontainer video {
-  height: 100%;
   border-radius: 15px;
   box-shadow: 10px 10px 0px rgba(24, 24, 24, 0.40);
+  overflow: hidden;
+  width: 100%;
+  max-width: 90vw;
+  max-width: 600px;
+  max-height: 80vh;
+  height: auto;
 }
 
 .narrower {

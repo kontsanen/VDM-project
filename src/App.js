@@ -14,7 +14,7 @@ function App() {
             <img src='/resources/images/yle-logo-valkoinen-crop.png' alt="Yle" height="70px" />
             <h1>Omassa kuplassa</h1>
           </div>
-          
+
 
       </div>
       <div className="content">
@@ -31,7 +31,6 @@ function App() {
             <source src="https://i.imgur.com/RMIeSpp.mp4" type="video/mp4" />
             Your browser does not support HTML video.
           </video>
-          <div></div>
         </div>
 
         <div className='infosection flex-column'>

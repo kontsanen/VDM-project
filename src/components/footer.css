@@ -10,6 +10,7 @@
     font-size: 14px;
     font-weight: 500;
     box-sizing: border-box;
+    border-top: 1px solid #867594;
 }
 
 .linkrow {

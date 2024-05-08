@@ -40,8 +40,6 @@ function App() {
           <a className="bigbutton" href="info">Ota selvää!</a>
           </div>
           <div></div>
-          <div></div>
-          <div></div>
           <div className='flex-column'>
            <h4 className='narrower no-margin'>Tai freesaa medialukutaitosi viimeisimpien tapahtumien kanssa!</h4>
             <h4 className='no-margin'>v</h4>

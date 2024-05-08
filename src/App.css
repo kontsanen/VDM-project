@@ -70,7 +70,7 @@
   display: flex;
   flex-direction: column;
   max-width: 600px;
-  gap: 20px;
+  gap: 30px;
 }
 
 .bigbutton {
@@ -84,6 +84,7 @@
   font-weight: 700;
   font-size: 20px;
   text-decoration: none;
+  /*box-shadow: 3px 5px 0px rgba(24, 24, 24, 0.40);*/
 }
 
 .bigbutton:hover {
@@ -115,7 +116,7 @@
   flex-wrap: wrap;
   max-width: 500px;
   max-height: 80vh;
-  aspect-ratio: 5 / 7; /* Adjust this ratio based on your video */
+  aspect-ratio: 5 / 7; /*vaihdetaan lopullista videota varten haluttuun aspect ratioon!*/
 }
 
 
@@ -151,7 +152,8 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    max-width: calc(100% - 10px);
+    width: calc(100% - 10px);
+    max-width: 1200px;
     justify-content: center;
   }
 
@@ -181,17 +183,17 @@
 
 @media screen and (max-width: 768px) {
   .grid-item {
-    flex: 0 0 calc(50% - 10px); /* Fixed width with buffer for spacing */
+    flex: 0 0 calc(50% - 10px);
   }
 }
 
 @media screen and (max-width: 480px) {
   .grid-container {
-    justify-content: center; /* Center single item */
+    justify-content: center; 
   }
 
   .grid-item {
-    flex: 0 0 100%; /* All items on one line */
+    flex: 0 0 100%;
   }
 }
 

@@ -20,7 +20,7 @@ function App() {
       <div className="content">
         {/*  kaikki sivun kontentti tulee tähän contentin sisään */}
         <div className='infosection'>
-          <h2>Oletko koskaan miettinyt, kuinka vahva medialukutaito juuri sinulla on?</h2>
+          <h2 className='no-margin'>Oletko koskaan miettinyt, kuinka vahva medialukutaito juuri sinulla on?</h2>
           <div>
           <a className="bigbutton" href="testi">Testaa nyt!</a>
           </div>
@@ -35,12 +35,15 @@ function App() {
 
 
         <div className='infosection flex-column'>
-          <h2 className='no-margin'>Mutta miten tämä kaikki toimii liibalaaba?</h2>
+          <h2 className='no-margin'>Mutta mitä väliä tällä kaikella edes on?</h2>
           <div>
-          <a className="bigbutton" href="info">Lue lisää</a>
+          <a className="bigbutton" href="info">Ota selvää!</a>
           </div>
+          <div></div>
+          <div></div>
+          <div></div>
           <div className='flex-column'>
-           <h4 className='narrower no-margin'>Tai tsekkaa medialukutaitosi viimeisimpien tapahtumien kanssa!</h4>
+           <h4 className='narrower no-margin'>Tai freesaa medialukutaitosi viimeisimpien tapahtumien kanssa!</h4>
             <h4 className='no-margin'>v</h4>
           </div>
         </div>

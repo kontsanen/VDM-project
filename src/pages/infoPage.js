@@ -4,6 +4,7 @@ import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import InfoHeadings from '../InfoHeadings';
 import InfoBody from '../InfoBody';
+import ScrollBox from '../components/scrollBox';
 
 
 
@@ -16,6 +17,7 @@ function InfoPage() {
         <div className='content'>
             <InfoHeadings />
             <InfoBody />
+            <ScrollBox />
         </div>
         <Footer />
     </div>

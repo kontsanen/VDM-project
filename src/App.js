@@ -4,6 +4,11 @@ import Navbar from './components/navbar';
 import Footer from './components/footer';
 import InfoHeadings from './InfoHeadings';
 import InfoBody from './InfoBody';
+import { Route, Routes } from 'react-router-dom';
+
+import HomePage from './pages/homePage';
+import InfoPage from './pages/infoPage';
+import TestPage from './pages/testPage';
 
 
 function App() {
@@ -11,6 +16,15 @@ function App() {
     
     <div className="App">
       <Navbar />
+      <Routes> 
+        <Route path="/" element={<HomePage />}/>
+        <Route path="/info" element={<InfoPage />}/>
+        <Route path="/test" element={<TestPage />}/>
+
+      </Routes>
+
+
+
       <div className="header">
 
           <div className='logoelement'>

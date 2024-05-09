@@ -49,6 +49,10 @@
      gap: 30px;
    }
 
+   .cat-pic{
+    width="50%
+
+   }
   
    .roster-container {
     margin-top: auto;
@@ -90,7 +94,7 @@
   
    .text-item5{
     color: black;
-    font-size: 10px;
+    font-size: 12px;
    }
    
    .textitem2:nth-child(odd) {

@@ -10,6 +10,8 @@ import HomePage from './pages/homePage';
 import InfoPage from './pages/infoPage';
 import TestPage from './pages/testPage';
 
+import { Link } from 'react-router-dom';
+
 
 function App() {
   return (
@@ -39,7 +41,7 @@ function App() {
         <div className='infosection'>
           <h2 className='no-margin'>Oletko koskaan miettinyt, kuinka vahva medialukutaito juuri sinulla on?</h2>
           <div>
-          <a className="bigbutton" href="testi">Testaa nyt!</a>
+          <Link className="bigbutton" to="/test">Testaa nyt!</Link>
           </div>
         </div>
 
@@ -54,7 +56,7 @@ function App() {
         <div className='infosection flex-column'>
           <h2 className='no-margin'>Mutta mitä väliä tällä kaikella edes on?</h2>
           <div>
-          <a className="bigbutton" href="info">Ota selvää!</a>
+          <Link className="bigbutton" to="info">Ota selvää!</Link>
           </div>
           <div></div>
           <div className='flex-column'>

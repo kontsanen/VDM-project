@@ -1,6 +1,7 @@
 import "./navbar.css";
 import '../fonts.css';
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 function Navbar () {
     const [isOpaque, setIsOpaque] = useState(false);
@@ -31,14 +32,14 @@ function Navbar () {
     return (
         <div className={`navbarcontainer ${isOpaque ? 'opaqueNavbar' : ''} ${borderActive ? 'borderBottom' : ''} ${isShortened ? 'shortenedNavbar' : ''}`}>
         <nav className="navbar">
-            <p><a className="navImage" href="koti">
+            <p><Link className="navImage" to="/">
                 <img src={isOpaque ? "/resources/images/yle-logo-musta-crop.png" : "/resources/images/yle-logo-valkoinen-crop.png"} alt="Yle" width="38px" />
                 
-                </a></p>
+                </Link></p>
 
             <p>
-                <a className="navlink" href="info">Mistä on kyse?</a>
-                <a className="button" href="testi">Testaa medialukutaitosi!</a>
+                <Link className="navlink" to="/info">Mistä on kyse?</Link>
+                <Link className="button" to="/test">Testaa medialukutaitosi!</Link>
             </p>
         </nav>
         </div>

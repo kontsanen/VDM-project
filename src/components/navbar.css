@@ -3,9 +3,10 @@
     display: flex;
     position: fixed;
     color: white;
-    background: none;
-    transition: ease-in-out 0.5s;
+    background-color: none;
     padding: 7px 0px;
+    z-index: 1000;
+    transition: padding 0.25s ease-in-out, background-color 0.25s linear;
 }
 .navbar {
     display: flex;
@@ -15,7 +16,7 @@
     max-width: 1100px;
     margin: auto;
     font-family: "Yle Next", sans-serif;
-    padding: 0px 20px;
+    padding: 0px 17px;
     box-sizing: border-box;
     font-size: 15px;
     font-weight: 800;
@@ -25,14 +26,17 @@
 }
 
 .opaqueNavbar {
-    background: #F8EDF1;
-    border-bottom: 1px solid #867594;
+    background-color: #F8EDF1;
+    
     color: #181818;
-    transition: ease-in-out 0.3s;
 }
 
 .shortenedNavbar {
     padding: 0px;
+}
+
+.borderBottom {
+    border-bottom: 1px solid #867594;
 }
 
 p {
@@ -45,22 +49,22 @@ p {
     font-weight: bold;
     padding: 8px 0;
     text-decoration: none;
-    transition-duration: 0.3s;
     color: white;
+    transition: color 0.15s linear;
 }
 
 .opaqueNavbar a {
     color: #181818;
-    transition-duration: 0.3s;
+
 }
 
 .button {
     border-radius: 500px;
-    padding: 8px 16px;
+    padding: 7px 14px;
     background-color: white;
     color: rgb(58, 0, 50);
     text-decoration: none;
-    transition: linear 0.1s;
+    transition: color 0.15s linear, background-color 0.15s linear;
 }
 
 .button:hover {
@@ -68,14 +72,16 @@ p {
 }
 
 .opaqueNavbar .button {
-    background: linear-gradient(-42deg, #ECB2D5, #BAB4EB);
+    background: linear-gradient(-42deg, #f282c5cc, #9d94e3cc);
+    background-color: #b8b1e3;
     color: #ffffff;
-    transition-duration: 0.3s;
+    transition: color 0.2s linear, background-color 0.2s linear;
+
     
 }
 
 .opaqueNavbar .button:hover {
-    background: linear-gradient(-63deg, #d097b9, #9993c4);
+    background-color: #262626;
 }
 
 .navImage {
@@ -88,4 +94,13 @@ p {
     text-decoration: underline;
 }
 
+
+
+
+
+@media screen and (max-width: 450px) {
+    .navlink {
+        display: none;
+    }
+}
 

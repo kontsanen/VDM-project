@@ -5,21 +5,31 @@ import React, { useState, useEffect } from 'react';
 function Navbar () {
     const [isOpaque, setIsOpaque] = useState(false);
     const [isShortened, setIsShortened] = useState(false);
+    const [borderActive, activateBorder] = useState(false);
+    let windowHeight = window.innerHeight;
 
     useEffect(() => {
       window.addEventListener('scroll', handleScroll);
+      window.addEventListener('resize', handleResize);
   
-      // Cleanup function to remove event listener when component unmounts
-      return () => window.removeEventListener('scroll', handleScroll);
-    }, []);
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+        window.removeEventListener('resize', handleResize);
+      }
+    }, );
   
     const handleScroll = () => {
-      setIsOpaque(window.scrollY > 90);
-      setIsShortened(window.scrollY > 300);
+      setIsOpaque(window.scrollY > windowHeight * 0.08);
+      activateBorder(window.scrollY > windowHeight * 0.08);
+      setIsShortened(window.scrollY > windowHeight * 0.25);
+    };
+
+    const handleResize = () => {
+        windowHeight = window.innerHeight;
     };
 
     return (
-        <div className={`navbarcontainer ${isOpaque ? 'opaqueNavbar' : ''} ${isShortened ? 'shortenedNavbar' : ''}`}>
+        <div className={`navbarcontainer ${isOpaque ? 'opaqueNavbar' : ''} ${borderActive ? 'borderBottom' : ''} ${isShortened ? 'shortenedNavbar' : ''}`}>
         <nav className="navbar">
             <p><a className="navImage" href="koti">
                 <img src={isOpaque ? "/resources/images/yle-logo-musta-crop.png" : "/resources/images/yle-logo-valkoinen-crop.png"} alt="Yle" width="38px" />

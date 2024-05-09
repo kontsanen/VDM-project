@@ -28,39 +28,149 @@
   color: #61dafb;
 }
 
-.headeri {
+.header {
   width: 100vw;
-  background: url("/public/resources/images/tausta1.png");
+  min-height: 35vh;
+  background-color: #000000;
+  background: url("/public/resources/images/tausta1-more-darkened.png");
   background-attachment: fixed;
   background-size: cover;
-  font-family: "Yle Next", sans-serif;
+  font-family: "Yle Next", Arial, Helvetica, sans-serif;
+  font-weight: 800;
   color: white;
-  height: 350px;
+  padding: 60px 20px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
+  gap: 15px;
+  
+}
+
+.logoelement {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding-top: 10px;
+}
+
+.logoelement h1 {
+  margin: 0;
+  font-size: 44px;
+  font-weight: 600;
+  max-width: 800px;
+  font-family: "Inter Tight" Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.infosection {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  gap: 30px;
+}
+
+.bigbutton {
+  border-radius: 500px;
+  padding: 9px 50px;
+  background: linear-gradient(-42deg, #f282c5cc, #9d94e3cc);
+  background-color: #b8b1e3;
+  transition: color 0.2s linear, background-color 0.2s linear;
+
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  /*box-shadow: 3px 5px 0px rgba(24, 24, 24, 0.40);*/
+}
+
+.bigbutton:hover {
+  background-color: #262626;
 }
 
 .content {
-  width: 100vw;
+  width: 100%;
   background: url("/public/resources/images/tausta2.png");
   background-size: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px 0;
-  gap: 10px;
+  align-items: center;
+  padding: 80px 15px;
+  gap: 120px;
   font-family: "Yle Next", Arial, Helvetica, sans-serif;
   font-size: 14;
   font-weight: 400;
+  color: #181818;
+  box-sizing: border-box;
 }
 
-.headeri h1 {
-  margin: 0;
-  font-size: 48px;
-  font-weight: 600;
-  text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.4);
+
+.videocontainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 500px;
+  max-height: 80vh;
+  aspect-ratio: 5 / 7; /*vaihdetaan lopullista videota varten haluttuun aspect ratioon!*/
 }
+
+
+.videocontainer video {
+  border-radius: 12px;
+  box-shadow: 10px 10px 0px rgba(24, 24, 24, 0.40);
+  overflow: hidden;
+  height: 100%;
+  max-height: calc((100vw - 20px) * (7 / 5)); /*vaihdetaan lopullista videota varten haluttuun aspect ratioon!*/
+  flex-wrap: wrap;
+}
+
+
+.narrower {
+  max-width: 350px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-margin{
+  margin: 0;
+  padding: 0;
+ }
+
+
+
+ .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: calc(100% - 10px);
+    max-width: 1200px;
+    justify-content: center;
+  }
+
+ .grid-item {
+  flex: 1 1 auto;
+  min-width: 100px;
+  max-width: 300px;
+  aspect-ratio: 1 / 1;
+  box-sizing: border-box;
+  background-color: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 10px 10px 0px rgba(24, 24, 24, 0.40);
+ }
+
+
+
 
 @keyframes App-logo-spin {
   from {
@@ -70,3 +180,32 @@
     transform: rotate(360deg);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .grid-item {
+    flex: 0 0 calc(50% - 10px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .grid-container {
+    justify-content: center; 
+  }
+
+  .grid-item {
+    flex: 0 0 100%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .logoelement {
+    flex-direction: column;
+    padding-top: 50px;
+  }
+
+  .logoelement h1 {
+    font-size: 40px;
+  }
+}
+
+

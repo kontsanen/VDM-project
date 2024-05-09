@@ -22,9 +22,7 @@ function App() {
         <Route path="/" element={<HomePage />}/>
         <Route path="/info" element={<InfoPage />}/>
         <Route path="/test" element={<TestPage />}/>
-
       </Routes>
-
 
 
       <div className="header">

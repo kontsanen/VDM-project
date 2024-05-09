@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import '../App.css';
-import Navbar from '../components/navbar';
+import LandingNavbar from '../components/landingNavbar';
 import Footer from '../components/footer';
 
 
@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 function HomePage() {
     return ( 
         <div>
-            <Navbar />
+            <LandingNavbar />
             <div className="header">
 
                 <div className='logoelement'>

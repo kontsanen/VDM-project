@@ -6,13 +6,10 @@ import InfoHeadings from '../InfoHeadings';
 import InfoBody from '../InfoBody';
 
 
-
-
 function InfoPage() {
     return ( 
         <div>
         <Navbar />
-        
         <div className='content'>
             <InfoHeadings />
             <InfoBody />

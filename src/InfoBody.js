@@ -1,5 +1,6 @@
 import React from 'react';
 import './info.css';
+import { RosterScrollArea } from './components/rosterScrollArea';
 
 
 function InfoBody() {
@@ -16,8 +17,6 @@ function InfoBody() {
       <div className="textitem2">Valheellisen tiedon ohella myös näkökulma ympäröivään maailmaan ja sen tapahtumiin kaventuu, kun oma syöte toistaa vain samoja teemoja ja näkökulmia. Yhteiskunnan tasolla tämä lisää <span className="pink-and-bold-and-cursive-word"> polarisaatiota </span> eli mielipiteiden selkeää kahtia jakautumista ja vastakkainasettelua. Yksilön tasolla tämä saattaa puolestaan johtaa olennaisen, esimerkiksi terveyteen tai sotaan liittyvän tiedon missaamiseen.</div>
       <div className="text-item3"> Älä anna siis muiden puhaltaa kupliasi – mieti, mitä luet.</div>
       
-      
-      <div className="roster-container"> 
         <div className="text-item4">
           <span className="bold-word"> Käsitteitä * </span>
           <p>1. <span className="pink-and-bold-and-cursive-word"> Algoritmi </span> eli sarja täsmällisesti määriteltyjä käskyjä tai toimenpiteitä jonkin tehtävän suorittamiseksi. </p>
@@ -26,20 +25,26 @@ function InfoBody() {
           <p>4. <span className="pink-and-bold-and-cursive-word"> Informaatiokupla </span> (filter bubble) (filter bubble) eli ilmiö, jossa käyttäjien näkökulmat ja ideologiat vahvistuvat esimerkiksi algoritmien tai räätälöityjen hakutulosten seurauksena.  </p>
           <p>5. <span className="pink-and-bold-and-cursive-word"> Medialukutaito </span> eli kyky lukea ja ymmärtää mediaa.</p>
           <p>6. <span className="pink-and-bold-and-cursive-word"> Polarisaatio </span> eli yhteiskunnan yhtenäisyyttä heikentävä ilmiö, jossa vastakkainasettelu lisääntyy ja eri väestöryhmien elämänpiirit eriytyvät toisistaan.</p>
-          <div className="text-item5">  
-          <p> * :</p>
-          <p><a href="https://pirg.org/edfund/articles/misinformation-on-social-media/" target="_blank"> Micich & Cross. 2023. How misinformation on social media has changed news. </a> </p>
-          <p> ** :</p>
-          <p><a href="https://tieteentermipankki.fi/wiki/Clean_Energy_Research:algorithm" target="_blank"> Tieteen termipankki. 2024. Clean Energy Research:algorithm </a> </p>
-          <p><a href="https://yle.fi/aihe/artikkeli/2021/02/08/valheenpaljastaja-kahdeksan-asiaa-jotka-jokaisen-pitaisi-ymmartaa" target="_blank"> Yle. 2021. Valheenpaljastaja: Kahdeksan asiaa, jotka jokaisen pitäisi ymmärtää misinformaatiosta. </a> </p>
-          <p><a href="https://www.oxfordreference.com/display/10.1093/acref/9780191803093.001.0001/acref-9780191803093-e-482" target="_blank"> Oxford -reference. (n.d.). Filter bubble. </a> </p>
-          <p><a href="https://sanastot.suomi.fi/terminology/02462623-9925-43d7-b117-2ee271cebdb7/concept/0180f378-0378-45ac-8a6c-4326ee005d95" target="_blank"> Suomi.fi. (n.d.) Sisäisen turvallisuuden sanasto, yhteiskunnan polarisaatio. </a> </p>
-          
-          
           </div>
+
+
+          <div className="roster-container"> 
+          <RosterScrollArea>
+            <div className="text-item5">  
+           
+              <p> * :</p>
+              <p><a href="https://pirg.org/edfund/articles/misinformation-on-social-media/" target="_blank"> Micich & Cross. 2023. How misinformation on social media has changed news. </a> </p>
+              <p> ** :</p>
+              <p><a href="https://tieteentermipankki.fi/wiki/Clean_Energy_Research:algorithm" target="_blank"> Tieteen termipankki. 2024. Clean Energy Research:algorithm </a> </p>
+              <p><a href="https://yle.fi/aihe/artikkeli/2021/02/08/valheenpaljastaja-kahdeksan-asiaa-jotka-jokaisen-pitaisi-ymmartaa" target="_blank"> Yle. 2021. Valheenpaljastaja: Kahdeksan asiaa, jotka jokaisen pitäisi ymmärtää misinformaatiosta. </a> </p>
+              <p><a href="https://www.oxfordreference.com/display/10.1093/acref/9780191803093.001.0001/acref-9780191803093-e-482" target="_blank"> Oxford -reference. (n.d.). Filter bubble. </a> </p>
+              <p><a href="https://sanastot.suomi.fi/terminology/02462623-9925-43d7-b117-2ee271cebdb7/concept/0180f378-0378-45ac-8a6c-4326ee005d95" target="_blank"> Suomi.fi. (n.d.) Sisäisen turvallisuuden sanasto, yhteiskunnan polarisaatio. </a> </p>
+            
+          </div>
+          </RosterScrollArea>
           </div>
         </div>
-        </div>
+        
        
 
 

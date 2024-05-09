@@ -23,7 +23,15 @@ function InfoBody() {
           <p>4. <span className="pink-and-bold-word"> Informaatiokupla </span> (filter bubble) (filter bubble) eli ilmiö, jossa käyttäjien näkökulmat ja ideologiat vahvistuvat esimerkiksi algoritmien tai räätälöityjen hakutulosten seurauksena.  </p>
           <p>5. <span className="pink-and-bold-word"> Medialukutaito </span> eli kyky lukea ja ymmärtää mediaa.</p>
           <p>6. <span className="pink-and-bold-word"> Polarisaatio </span> eli yhteiskunnan yhtenäisyyttä heikentävä ilmiö, jossa vastakkainasettelu lisääntyy ja eri väestöryhmien elämänpiirit eriytyvät toisistaan.</p>
-          <div className="text-item5"> päläpälä </div>
+          <div className="text-item5">  
+
+Tieteen termipankki. 2024: Clean Energy Research:algorithm. Saatavissa: https://tieteentermipankki.fi/wiki/Clean Energy Research:algorithm. 
+
+Yle. 2021. Valheenpaljastaja: Kahdeksan asiaa, jotka jokaisen pitäisi ymmärtää misinformaatiosta. Saatavissa https://yle.fi/aihe/artikkeli/2021/02/08/valheenpaljastaja-kahdeksan-asiaa-jotka-jokaisen-pitaisi-ymmartaa  
+
+Oxford -reference. (n.d.). Filter bubble. Saatavissa: https://www.oxfordreference.com/display/10.1093/acref/9780191803093.001.0001/acref-9780191803093-e-482 
+
+Suomi.fi. (n.d.) Sisäisen turvallisuuden sanasto, yhteiskunnan polarisaatio. Saatavissa: https://sanastot.suomi.fi/terminology/02462623-9925-43d7-b117-2ee271cebdb7/concept/0180f378-0378-45ac-8a6c-4326ee005d95  </div>
           </div>
         </div>
         </div>

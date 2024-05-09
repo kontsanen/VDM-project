@@ -17,12 +17,12 @@ function InfoBody() {
       <div className="roster-container"> 
         <div className="text-item4">
           <span className="bold-word"> Käsitteitä * </span>
-          <p>1. <span className="pink-and-bold-word"> Algoritmi </span> eli kuvaus tai ohje siitä, miten joki tehtävä</p>
+          <p>1. <span className="pink-and-bold-word"> Algoritmi </span> eli sarja täsmällisesti määriteltyjä käskyjä tai toimenpiteitä jonkin tehtävän suorittamiseksi. </p>
           <p>2. <span className="pink-and-bold-word"> Disinformaatio </span>  eli tahallisesti levitettyä väärä tieto.</p>
           <p> 3. <span className="pink-and-bold-word"> Misinformaatio </span> eli tahattomasti levitetty väärä tieto.</p>
-          <p>4. <span className="pink-and-bold-word"> Informaatiokupla </span> (filter bubble) eli</p>
+          <p>4. <span className="pink-and-bold-word"> Informaatiokupla </span> (filter bubble) (filter bubble) eli ilmiö, jossa käyttäjien näkökulmat ja ideologiat vahvistuvat esimerkiksi algoritmien tai räätälöityjen hakutulosten seurauksena.  </p>
           <p>5. <span className="pink-and-bold-word"> Medialukutaito </span> eli kyky lukea ja ymmärtää mediaa.</p>
-          <p>6. <span className="pink-and-bold-word"> Polarisaatio </span> eli</p>
+          <p>6. <span className="pink-and-bold-word"> Polarisaatio </span> eli yhteiskunnan yhtenäisyyttä heikentävä ilmiö, jossa vastakkainasettelu lisääntyy ja eri väestöryhmien elämänpiirit eriytyvät toisistaan.</p>
           <div className="text-item5"> päläpälä </div>
           </div>
         </div>

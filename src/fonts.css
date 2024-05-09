@@ -4,3 +4,9 @@
     src: url('/public/resources/fonts/YleNextVar.woff2') format('woff2');
     font-style: normal;
   }
+
+@font-face {
+    font-family: 'Yle Next Italic';
+    src: url('/public/resources/fonts/YleNextVar-Italic.woff2') format('woff2');
+    font-style: normal;
+}

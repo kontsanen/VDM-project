@@ -5,8 +5,19 @@ function TestPage() {
     return ( 
         <div>
             <Navbar />
-            <h1>Test Page</h1>
-            <p>This is an example page</p>
+            <div className='content'>
+                <h1>Test Page</h1>
+                <p>This is an example page</p>
+                <h1>Test Page</h1>
+                <p>This is an example page</p>
+                <h1>Test Page</h1>
+                <p>This is an example page</p>
+                <h1>Test Page</h1>
+                <p>This is an example page</p>
+               
+                
+            </div>
+            
             <Footer />
         </div>
     );

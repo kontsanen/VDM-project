@@ -1,5 +1,5 @@
 import React from 'react';
-import './Info.css';
+import './info.css';
 
 function InfoHeadings() {
     return(

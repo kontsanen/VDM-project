@@ -2,6 +2,9 @@
 import './App.css';
 import Navbar from './components/navbar';
 import Footer from './components/footer';
+import InfoHeadings from './InfoHeadings';
+import InfoBody from './InfoBody';
+
 
 function App() {
   return (
@@ -55,6 +58,10 @@ function App() {
           <div className="grid-item"><img src="https://m.media-amazon.com/images/I/61bueMdnn0L._AC_UF1000,1000_QL80_.jpg" alt="kuva" height="100%" /></div>
           <div className="grid-item"><img src="https://m.media-amazon.com/images/I/61bueMdnn0L._AC_UF1000,1000_QL80_.jpg" alt="kuva" height="100%" /></div>
         </div>
+      
+      <InfoHeadings />
+      <InfoBody />
+
       </div>
       <Footer />
     </div>

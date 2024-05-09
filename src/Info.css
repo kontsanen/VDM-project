@@ -17,6 +17,7 @@
   }
   
   .background {
+    background: url("/public/resources/images/tausta2.png");
     position: relative;
     width: 100vw;
     height: 100vw;

@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import '../App.css';
+import './homePage.css';
 import LandingNavbar from '../components/landingNavbar';
 import Footer from '../components/footer';
 
@@ -24,10 +24,15 @@ function HomePage() {
                 <div className="content">
                 {/*  kaikki sivun kontentti tulee tähän contentin sisään */}
                 <div className='infosection'>
-                <h2 className='no-margin'>Oletko koskaan miettinyt, kuinka vahva medialukutaito juuri sinulla on?</h2>
+                <h2 className='gray-heading no-margin'>Oletko koskaan miettinyt, kuinka vahva medialukutaito juuri sinulla on?</h2>
                 <div>
                 <Link className="bigbutton" to="/test">Testaa nyt!</Link>
                 </div>
+                </div>
+
+                <div>
+                    <h4 className='no-margin'>Tai katso videolta, mitä väliä sillä edes on!</h4>
+                    <h4 className='no-margin'>v</h4>
                 </div>
 
                 <div className='videocontainer'>
@@ -39,7 +44,7 @@ function HomePage() {
 
 
                 <div className='infosection flex-column'>
-                <h2 className='no-margin'>Mutta mitä väliä tällä kaikella edes on?</h2>
+                <h2 className='gray-heading no-margin'>Mutta mitä tämä kaikki sitten tarkoittaa?</h2>
                 <div>
                 <Link className="bigbutton" to="info">Ota selvää!</Link>
                 </div>

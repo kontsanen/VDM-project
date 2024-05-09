@@ -22,12 +22,12 @@
     width: 100vw;
     height: 100vw;
     overflow: hidden;
+    gap: 15px;
   }
   
   h1 {
     color: black;
     font-size: 40px;
-    padding-left: 10vh;
     position: static;
     
    }
@@ -81,11 +81,9 @@
    }
   
    .text-item4{
-    padding-top: 10vh;
     color: black;
     text-align: center;
     font-size: 20px;
-    padding-left: 20rem;
    }
   
    .text-item5{

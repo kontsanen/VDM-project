@@ -1,9 +1,24 @@
+// import logo from './logo.svg';
+import '../App.css';
+import Navbar from '../components/navbar';
+import Footer from '../components/footer';
+import InfoHeadings from '../InfoHeadings';
+import InfoBody from '../InfoBody';
+
+
+
+
 function InfoPage() {
     return ( 
         <div>
-            <h1>Info Page</h1>
-            <p>This is an example page</p>
+        <Navbar />
+        
+        <div className='content'>
+            <InfoHeadings />
+            <InfoBody />
         </div>
+        <Footer />
+    </div>
     );
 }
 export default InfoPage;

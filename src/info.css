@@ -22,7 +22,8 @@
     width: 100vw;
     height: 100vw;
     overflow: hidden;
-    gap: 15px;
+
+
   }
   
   h1 {
@@ -42,11 +43,14 @@
    }
   
    .body-container {
-     display: grid;
+
      flex-wrap: wrap;
-     flex-direction: column;
      justify-content: space-between;
      max-width: 1100px;
+
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
    }
   
    .roster-container {

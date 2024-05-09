@@ -1,6 +1,7 @@
 import React from 'react';
 import './info.css';
-import { RosterScrollArea } from './components/rosterScrollArea';
+import { RosterScrollArea } from './components/ScrollArea';
+import { ScrollBox } from './components/scrollBox';
 
 
 function InfoBody() {
@@ -29,7 +30,7 @@ function InfoBody() {
 
 
           <div className="roster-container"> 
-          <RosterScrollArea>
+          <ScrollBox>
             <div className="text-item5">  
            
               <p> * :</p>
@@ -41,7 +42,7 @@ function InfoBody() {
               <p><a href="https://sanastot.suomi.fi/terminology/02462623-9925-43d7-b117-2ee271cebdb7/concept/0180f378-0378-45ac-8a6c-4326ee005d95" target="_blank"> Suomi.fi. (n.d.) Sisäisen turvallisuuden sanasto, yhteiskunnan polarisaatio. </a> </p>
             
           </div>
-          </RosterScrollArea>
+          </ScrollBox>
           </div>
         </div>
         

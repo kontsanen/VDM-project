@@ -63,8 +63,9 @@
    }
   
    .roster-container {
-    margin-top: auto;
-  }
+    max-height: 200px; /* Adjust the height as needed */
+    overflow-y: auto;
+}
   
    .headings-container {
     display: grid;

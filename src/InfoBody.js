@@ -1,11 +1,12 @@
 import React from 'react';
 import './info.css'
-import { ScrollBox } from './components/scrollBox';
+import ScrollBox from './components/scrollBox'; 
 
 
 function InfoBody() {
   return (
     <div className="body-container"> 
+    <ScrollBox />
       
         <div className="textitem1">Jos vastasit kyllä, usean media-alustan käyttämät <span className="pink-and-bold-and-cursive-word"> algoritmit </span> ovat tehneet tehtävänsä. Yksinkertaisimmillaan algoritmit voivat määrittää esimerkiksi näkyvätkö uutiset uusimmasta vanhimpaan vai suosituimmasta vähiten klikattuun.</div>
      

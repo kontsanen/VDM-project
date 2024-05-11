@@ -21,7 +21,7 @@
     /* disable browser handling of all panning and zooming gestures on touch devices */
     touch-action: none;
     padding: 2px;
-    background: var(--black-a6);
+    background: black;
     transition: background 160ms ease-out;
   }
   .ScrollAreaScrollbar:hover {

@@ -1,4 +1,5 @@
 import React from 'react';
+import './scrollBox.css';
 import { ScrollArea, Viewport, Scrollbar, Thumb, Corner } from '@radix-ui/react-scroll-area';
 
 
@@ -30,8 +31,8 @@ export const ScrollBox = () => {
 
   return (
     <div>
-   <ScrollArea>
-      <Viewport>
+   <ScrollArea className="ScrollAreaRoot">
+      <Viewport className="ScrollAreaViewport">
       <ul>
             {sources.map((source, index) => (
               <li key={index}>
@@ -42,13 +43,13 @@ export const ScrollBox = () => {
             ))}
           </ul>
       </Viewport>
-      <Scrollbar orientation="horizontal">
-        <Thumb />
+      <Scrollbar className="ScrollAreaScrollbar" orientation="horizontal">
+        <Thumb className="ScrollAreaThumb" />
       </Scrollbar>
-      <Scrollbar orientation="vertical">
-        <Thumb />
+      <Scrollbar className="ScrollAreaScrollbar" orientation="vertical">
+        <Thumb className="ScrollAreaThumb"/>
       </Scrollbar>
-      <Corner />
+      <Corner className="ScrollAreaCorner" />
   </ScrollArea> 
     </div>
   );

@@ -33,6 +33,7 @@ export const ScrollBox = () => {
     <div>
    <ScrollArea className="ScrollAreaRoot">
       <Viewport className="ScrollAreaViewport">
+      <div className="Text"> Lähteet: </div>
       <ul>
             {sources.map((source, index) => (
               <li key={index}>

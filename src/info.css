@@ -63,8 +63,10 @@
    }
   
    .roster-container {
-    max-height: 200px; /* Adjust the height as needed */
     overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
   
    .headings-container {
@@ -103,7 +105,7 @@
   
    .text-item5{
     color: black;
-    font-size: 12px;
+    font-size: 14px;
    }
    
    .textitem2:nth-child(odd) {

@@ -24,6 +24,49 @@
 
   }
   
+  /* Containers */
+   .body-container {
+     flex-wrap: wrap;
+     justify-content: space-between;
+     max-width: 1000px;
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+   }
+
+   .roster-container {
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headings-container {
+    display: grid;
+    place-items: center; 
+  }
+
+
+  /* Images and texts */
+
+
+  /*Images */
+
+   .cat-pic {
+    align-self: flex-end;
+    width: 100%;
+    max-width: 500px;
+
+   }
+
+   .cat-pic img {
+    border-radius: 12px;
+    box-shadow: 10px 10px 0px rgba(24, 24, 24, 0.40);
+    max-width: 385px;
+   }
+
+  /* Headings */
+
   h1 {
     color: black;
     font-size: 40px;
@@ -39,41 +82,9 @@
     font-size: 20px;
     position: static;
    }
-  
-   .body-container {
-     flex-wrap: wrap;
-     justify-content: space-between;
-     max-width: 1000px;
-     display: flex;
-     flex-direction: column;
-     gap: 30px;
-   }
-
-   .cat-pic {
-    align-self: flex-end;
-    width: 100%;
-    max-width: 500px;
-
-   }
-
-   .cat-pic img {
-    border-radius: 12px;
-    box-shadow: 10px 10px 0px rgba(24, 24, 24, 0.40);
-    max-width: 385px;
-   }
-  
-   .roster-container {
-    overflow-y: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-  
-   .headings-container {
-    display: grid;
-    place-items: center; 
-  }
    
+   /* Texts */
+
    .textitem1 {
      color: black;
      padding: 1rem;
@@ -130,5 +141,4 @@
     color: hotpink;
     font-weight: bold;
   }
-  
   

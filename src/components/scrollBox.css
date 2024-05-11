@@ -1,5 +1,7 @@
+
+
 .ScrollAreaRoot {
-    width: 500px;
+    width: 400px;
     height: 100px;
     border-radius: 10px;
     overflow: hidden;
@@ -18,12 +20,12 @@
   .ScrollAreaScrollbar {
     display: flex;
     user-select: none;
-    /* disable browser handling of all panning and zooming gestures on touch devices */
     touch-action: none;
     padding: 2px;
     background: var purple;
     transition: background 160ms ease-out;
   }
+
   .ScrollAreaScrollbar:hover {
     background: var black;
   }
@@ -31,18 +33,14 @@
     width: var(--scrollbar-size);
     flex-direction: column;
   }
-  .ScrollAreaScrollbar[data-orientation='horizontal'] {
-    flex-direction: column;
-    height: var(--scrollbar-size);
-  }
-  
+   
   .ScrollAreaThumb {
     flex: 1;
     background: var(--mauve-10);
     border-radius: var(--scrollbar-size);
     position: relative;
   }
-  /* increase target size for touch devices https://www.w3.org/WAI/WCAG21/Understanding/target-size.html */
+  
   .ScrollAreaThumb::before {
     content: '';
     position: absolute;
@@ -71,6 +69,5 @@
     font-size: 13px;
     line-height: 18px;
     margin-top: 10px;
-    border-top: 1px solid var blue;
     padding-top: 10px;
   }

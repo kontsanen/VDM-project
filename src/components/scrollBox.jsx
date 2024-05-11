@@ -34,7 +34,7 @@ export const ScrollBox = () => {
    <ScrollArea className="ScrollAreaRoot">
       <Viewport className="ScrollAreaViewport">
       <div className="Text"> Lähteet: </div>
-      <ul>
+      <ul style={{ listStyle: 'none' }}> 
             {sources.map((source, index) => (
               <li key={index}>
                 <a href={source.url} target="_blank" rel="noopener noreferrer">
@@ -44,9 +44,6 @@ export const ScrollBox = () => {
             ))}
           </ul>
       </Viewport>
-      <Scrollbar className="ScrollAreaScrollbar" orientation="horizontal">
-        <Thumb className="ScrollAreaThumb" />
-      </Scrollbar>
       <Scrollbar className="ScrollAreaScrollbar" orientation="vertical">
         <Thumb className="ScrollAreaThumb"/>
       </Scrollbar>

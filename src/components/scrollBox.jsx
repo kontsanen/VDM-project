@@ -20,7 +20,7 @@ export const ScrollBox = () => {
     },
     {
       title: "** Oxford -reference. (n.d.). Filter bubble.",
-      url: "** https://www.oxfordreference.com/display/10.1093/acref/9780191803093.001.0001/acref-9780191803093-e-482",
+      url: "https://www.oxfordreference.com/display/10.1093/acref/9780191803093.001.0001/acref-9780191803093-e-482",
     },
     {
       title: "** Suomi.fi. (n.d.) Sisäisen turvallisuuden sanasto, yhteiskunnan polarisaatio.",

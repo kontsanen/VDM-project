@@ -19,7 +19,8 @@ function InfoBody() {
       <div className="text-item3"> Älä anna siis muiden puhaltaa kupliasi – mieti, mitä luet.</div>
       
         <div className="text-item4">
-          <span className="bold-word"> Käsitteitä * </span>
+          <span className="bold-word"> Käsitteitä ** </span>
+       
           <p>1. <span className="pink-and-bold-and-cursive-word"> Algoritmi </span> eli sarja täsmällisesti määriteltyjä käskyjä tai toimenpiteitä jonkin tehtävän suorittamiseksi. </p>
           <p>2. <span className="pink-and-bold-and-cursive-word"> Disinformaatio </span>  eli tahallisesti levitettyä väärä tieto.</p>
           <p> 3. <span className="pink-and-bold-and-cursive-word"> Misinformaatio </span> eli tahattomasti levitetty väärä tieto.</p>

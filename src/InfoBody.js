@@ -1,6 +1,5 @@
 import React from 'react';
-import './info.css';
-import { RosterScrollArea } from './components/ScrollArea';
+import './info.css'
 import { ScrollBox } from './components/scrollBox';
 
 
@@ -28,27 +27,12 @@ function InfoBody() {
           <p>6. <span className="pink-and-bold-and-cursive-word"> Polarisaatio </span> eli yhteiskunnan yhtenäisyyttä heikentävä ilmiö, jossa vastakkainasettelu lisääntyy ja eri väestöryhmien elämänpiirit eriytyvät toisistaan.</p>
           </div>
 
-
           <div className="roster-container"> 
-          <ScrollBox>
             <div className="text-item5">  
-           
-              <p> * :</p>
-              <p><a href="https://pirg.org/edfund/articles/misinformation-on-social-media/" target="_blank"> Micich & Cross. 2023. How misinformation on social media has changed news. </a> </p>
-              <p> ** :</p>
-              <p><a href="https://tieteentermipankki.fi/wiki/Clean_Energy_Research:algorithm" target="_blank"> Tieteen termipankki. 2024. Clean Energy Research:algorithm </a> </p>
-              <p><a href="https://yle.fi/aihe/artikkeli/2021/02/08/valheenpaljastaja-kahdeksan-asiaa-jotka-jokaisen-pitaisi-ymmartaa" target="_blank"> Yle. 2021. Valheenpaljastaja: Kahdeksan asiaa, jotka jokaisen pitäisi ymmärtää misinformaatiosta. </a> </p>
-              <p><a href="https://www.oxfordreference.com/display/10.1093/acref/9780191803093.001.0001/acref-9780191803093-e-482" target="_blank"> Oxford -reference. (n.d.). Filter bubble. </a> </p>
-              <p><a href="https://sanastot.suomi.fi/terminology/02462623-9925-43d7-b117-2ee271cebdb7/concept/0180f378-0378-45ac-8a6c-4326ee005d95" target="_blank"> Suomi.fi. (n.d.) Sisäisen turvallisuuden sanasto, yhteiskunnan polarisaatio. </a> </p>
-            
-          </div>
-          </ScrollBox>
+                <ScrollBox />
+                </div>
           </div>
         </div>
-        
-       
-
-
       
     );
 }

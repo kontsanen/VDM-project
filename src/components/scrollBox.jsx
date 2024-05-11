@@ -6,7 +6,7 @@ import { ScrollArea, Viewport, Scrollbar, Thumb, Corner } from '@radix-ui/react-
 export const ScrollBox = () => {
   return (
     <div>
-    <div>tähän tulisi scrollbox, jos se toimisi. Tämä teksti tulee filestä scrollBox.js</div>
+    <div> Scroll box would be here! </div>
    {/*<ScrollArea.Root>
       <Viewport>
         

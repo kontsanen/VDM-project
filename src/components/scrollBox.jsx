@@ -3,15 +3,14 @@ import { ScrollArea, Viewport, Scrollbar, Thumb, Corner } from '@radix-ui/react-
 
 
 export const ScrollBox = () => {
-  
+
   const Sources =  [
     'Cats',
     'Dogs',
   ];
   return (
     <div>
-    <div> Scroll box would be here! </div>
-   <ScrollArea.Root>
+   <ScrollArea>
       <Viewport>
         <ul>
           {Sources.map((item, index) => (
@@ -26,7 +25,7 @@ export const ScrollBox = () => {
         <Thumb />
       </Scrollbar>
       <Corner />
-  </ScrollArea.Root> */
+  </ScrollArea> 
     </div>
   );
 };

@@ -1,12 +1,16 @@
 import React from 'react';
 import './info.css'
-import { ScrollBox } from './components/scrollBox'; 
+import { ScrollBox } from './components/scrollBox';
 
 
 function InfoBody() {
   return (
     <div className="body-container"> 
+    
+      
         <div className="textitem1">Jos vastasit kyllä, usean media-alustan käyttämät <span className="pink-and-bold-and-cursive-word"> algoritmit </span> ovat tehneet tehtävänsä. Yksinkertaisimmillaan algoritmit voivat määrittää esimerkiksi näkyvätkö uutiset uusimmasta vanhimpaan vai suosituimmasta vähiten klikattuun.</div>
+     
+
       <div className="textitem2">Nykyään algoritmeja käytetään kuitenkin myös määrittelemään, mitä sisältöjä näet. Tämä tehdään usein esimerkiksi käyttöhistoriasi perusteella.</div>
       <div className="textitem1"> Jos luet usein uutisia jalkapallosta tai tykkäilet paljon tietyn poliitikon videoista, näet mitä todennäköisimmin näihin aihepiireihin liittyviä sisältöjä etusivullasi huomenna ja sitä seuraavanakin päivänä. Kuulostaa kivalta, vai mitä? Pian saatat kuitenkin huomata, että muunlaisen sisällön osuus on pienentynyt.</div>
       <div className="cat-pic"><img src="/resources/images/cat.jpg" alt="Yle" width="100%" /></div>

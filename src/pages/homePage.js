@@ -56,13 +56,13 @@ function HomePage() {
                 </div>
 
                 <div className="grid-container">
-                    <div className="grid-item"><img src="https://m.media-amazon.com/images/I/61bueMdnn0L._AC_UF1000,1000_QL80_.jpg" alt="kuva" height="100%" /></div>
-                    <div className="grid-item"><img src="https://m.media-amazon.com/images/I/61bueMdnn0L._AC_UF1000,1000_QL80_.jpg" alt="kuva" height="100%" /></div>
-                    <div className="grid-item"><img src="https://m.media-amazon.com/images/I/61bueMdnn0L._AC_UF1000,1000_QL80_.jpg" alt="kuva" height="100%" /></div>
-                    <div className="grid-item"><img src="https://m.media-amazon.com/images/I/61bueMdnn0L._AC_UF1000,1000_QL80_.jpg" alt="kuva" height="100%" /></div>
-                    <div className="grid-item"><img src="https://m.media-amazon.com/images/I/61bueMdnn0L._AC_UF1000,1000_QL80_.jpg" alt="kuva" height="100%" /></div>
-                    <div className="grid-item"><img src="https://m.media-amazon.com/images/I/61bueMdnn0L._AC_UF1000,1000_QL80_.jpg" alt="kuva" height="100%" /></div>
-                    <div className="grid-item"><img src="https://m.media-amazon.com/images/I/61bueMdnn0L._AC_UF1000,1000_QL80_.jpg" alt="kuva" height="100%" /></div>
+                    <div className="grid-item"><img src="/resources/images/Instagram-post1.png" alt="kuva" height="100%" /></div>
+                    <div className="grid-item"><img src="/resources/images/Instagram-post2.png" alt="kuva" height="100%" /></div>
+                    <div className="grid-item"><img src="/resources/images/Instagram-post3.png" alt="kuva" height="100%" /></div>
+                    <div className="grid-item"><img src="/resources/images/Instagram-post4.png" alt="kuva" height="100%" /></div>
+                    <div className="grid-item"><img src="/resources/images/Instagram-post5.png" alt="kuva" height="100%" /></div>
+                    <div className="grid-item"><img src="/resources/images/Instagram-post5.png" alt="kuva" height="100%" /></div>
+                    <div className="grid-item"><img src="/resources/images/Instagram-post5.png" alt="kuva" height="100%" /></div>
                 </div>
 
 

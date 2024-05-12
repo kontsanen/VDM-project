@@ -111,12 +111,14 @@
     color: black;
     text-align: left;
     font-size: 20px;
+    padding: 0px 10px;
   }
   
    .text-item5{
     color: black;
     font-size: 14px;
     border-radius: 12px;
+    padding: 0px 5px;
  
    }
    
@@ -136,10 +138,38 @@
     font-family: 'Yle Next Italic';
     font-weight: bold;
   }
+
+  .term-element {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 20px 0;
+  }
+
+  .term-element p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .explanation {
+    margin-left: 0px;
+  }
   
   .pink-and-bold-and-cursive-word{
     font-family: 'Yle Next Italic';
     color: hotpink;
     font-weight: bold;
+    min-width: 170px;
+  }
+
+  @media screen and (max-width: 550px) {
+    .term-element {
+      flex-direction: column;
+      gap: 7px;
+    }
+
+    .explanation {
+      margin-left: 30px;
+    }
   }
   

@@ -20,22 +20,40 @@ function InfoBody() {
       
         <div className="text-item4">
           <span className="bold-word"> Käsitteitä ** </span>
-       
-          <p>1. <span className="pink-and-bold-and-cursive-word"> Algoritmi </span> eli sarja täsmällisesti määriteltyjä käskyjä tai toimenpiteitä jonkin tehtävän suorittamiseksi. </p>
-          <p>2. <span className="pink-and-bold-and-cursive-word"> Disinformaatio </span>  eli tahallisesti levitettyä väärä tieto.</p>
-          <p> 3. <span className="pink-and-bold-and-cursive-word"> Misinformaatio </span> eli tahattomasti levitetty väärä tieto.</p>
-          <p>4. <span className="pink-and-bold-and-cursive-word"> Informaatiokupla </span> (filter bubble) (filter bubble) eli ilmiö, jossa käyttäjien näkökulmat ja ideologiat vahvistuvat esimerkiksi algoritmien tai räätälöityjen hakutulosten seurauksena.  </p>
-          <p>5. <span className="pink-and-bold-and-cursive-word"> Medialukutaito </span> eli kyky lukea ja ymmärtää mediaa.</p>
-          <p>6. <span className="pink-and-bold-and-cursive-word"> Polarisaatio </span> eli yhteiskunnan yhtenäisyyttä heikentävä ilmiö, jossa vastakkainasettelu lisääntyy ja eri väestöryhmien elämänpiirit eriytyvät toisistaan.</p>
-          </div>
 
-          <div className="roster-container"> 
-            <div className="text-item5">  
-                <ScrollBox />
-                </div>
+          <div className='term-element'>
+            <p>1. <span className="pink-and-bold-and-cursive-word"> Algoritmi </span></p>
+            <p className='explanation'>eli sarja täsmällisesti määriteltyjä käskyjä tai toimenpiteitä jonkin tehtävän suorittamiseksi.</p>
+          </div>
+          <div className='term-element'>
+            <p>2. <span className="pink-and-bold-and-cursive-word"> Disinformaatio</span></p>
+            <p className='explanation'>eli tahallisesti levitettyä väärä tieto.</p>
+          </div>
+          <div className='term-element'>
+            <p>3. <span className="pink-and-bold-and-cursive-word"> Misinformaatio</span></p>
+            <p className='explanation'>eli tahattomasti levitetty väärä tieto.</p>
+          </div>
+          <div className='term-element'>
+            <p>4. <span className="pink-and-bold-and-cursive-word"> Informaatiokupla</span></p>
+            <p className='explanation'>(filter bubble) eli ilmiö, jossa käyttäjien näkökulmat ja ideologiat vahvistuvat esimerkiksi algoritmien tai räätälöityjen hakutulosten seurauksena.</p>
+          </div>
+          <div className='term-element'>
+            <p>5. <span className="pink-and-bold-and-cursive-word"> Medialukutaito </span></p>
+            <p className='explanation'>eli kyky lukea ja ymmärtää mediaa.</p>
+          </div>
+          <div className='term-element'>
+            <p>6. <span className="pink-and-bold-and-cursive-word"> Polarisaatio </span></p>
+            <p className='explanation'>eli yhteiskunnan yhtenäisyyttä heikentävä ilmiö, jossa vastakkainasettelu lisääntyy ja eri väestöryhmien elämänpiirit eriytyvät toisistaan.</p>
           </div>
         </div>
-      
+
+        <div className="roster-container"> 
+          <div className="text-item5">  
+              <ScrollBox />
+          </div>
+        </div>
+        
+    </div>
     );
 }
 

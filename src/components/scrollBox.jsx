@@ -25,7 +25,8 @@ export const ScrollBox = () => {
     {
       title: "** Suomi.fi. (n.d.) Sisäisen turvallisuuden sanasto, yhteiskunnan polarisaatio.",
       url: "https://sanastot.suomi.fi/terminology/02462623-9925-43d7-b117-2ee271cebdb7/concept/0180f378-0378-45ac-8a6c-4326ee005d95",
-
+    },
+    {
       title: "Kuva: Jerry from Sioux Falls, South Dakota, United States, CC BY-SA 4.0, via Wikimedia Commons",
       url: "https://upload.wikimedia.org/wikipedia/commons/a/aa/White_cat_watching_Wikipedia.jpg",
     },
@@ -40,7 +41,7 @@ export const ScrollBox = () => {
       <ul style={{ listStyle: 'none' }}> 
             {sources.map((source, index) => (
               <li key={index}>
-                <a href={source.url} target="_blank" rel="noopener noreferrer">
+                <a className='Tag' href={source.url} target="_blank" rel="noopener noreferrer">
                   {source.title}
                 </a>
               </li>

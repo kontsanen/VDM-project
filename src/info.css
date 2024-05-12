@@ -35,7 +35,6 @@
    }
 
    .roster-container {
-    overflow-y: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,6 +116,8 @@
    .text-item5{
     color: black;
     font-size: 14px;
+    border-radius: 12px;
+ 
    }
    
    .textitem2:nth-child(odd) {

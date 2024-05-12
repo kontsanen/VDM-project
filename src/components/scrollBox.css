@@ -21,7 +21,7 @@
   width: 100%;
   height: 100%;
   border-radius: inherit;
-  padding: 15px 20px;
+  padding: 15px 0px 0px 0px;
   box-sizing: border-box;
   text-align: left;
 }
@@ -32,7 +32,15 @@
 }
 
 .ScrollAreaViewport li {
-  height: fit-content;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: 0.2s ease-in-out;
+  
+ }
+
+ .ScrollAreaViewport li:hover {
+  background: #f2f2f2;
  }
 
 
@@ -87,6 +95,9 @@
   font-weight: 600;
   padding: 3px 0px;
   line-height: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
 
 }
 
@@ -95,10 +106,24 @@
   color: #181818;
   font-size: 13px;
   line-height: 18px;
-  margin-top: 10px;
-  border-top: 1px solid #dddddd;
+  margin-bottom: 10px;
   padding-top: 10px;
-  text-decoration: underline;
-  cursor: pointer;
-  position: relative;
+  text-decoration: none;
+  width: calc(100% - 30px);
 }
+
+.sourceContainer {
+  border-top: 1px solid #dddddd;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.sourceArrow {
+  height: 15px;
+  width: 10px;
+  padding-left: 20px;
+}
+

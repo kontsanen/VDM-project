@@ -55,6 +55,8 @@ function InfoBody() {
         
     </div>
     );
+
+    <div> djfjf¨fjj</div>
 }
 
 export default InfoBody;

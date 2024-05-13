@@ -1,5 +1,40 @@
 # Getting Started with Create React App
 
+
+
+
+
+
+Ryhmätyön ReadMe alkaa tästä 
+
+YLEISESTI:
+
+Jaoimme työtehtävät osittain taitotason tms. mukaan, mutta kuitenkin niin että kaikki tekivät kunnolla töitä. Ajattelimme, että osa ryhmästä keskittyisi kuitenkin enemmän sisältöihin.
+Projektipäälikköyyden nettisivujen osalta otti enimmäkseen Konsta, joka teki Landing Pagen sekä valmiiksi siihen komponentteja esim. Headering, Footerin ja taustan, joita muut ryhmäläiset pystyivät hyödyntämään omilla sivuillaan. 
+
+Hommat saatiin hyvin kasaan, vaikka välillä myöhästyimme kaikki yhteisistä ja sovituista deadlineista (joissa oli kuitenkin hyvin joustovaraa). 
+
+SIVUSTON TYYLIVALINNOISTA:
+
+Halusimme, että sivustomme olisi miellyttävän näköinen ja siksi valitsimme vaaleat värit. Koska toteutimme kampanjamme Yle Kioski -formaatin alla, halusimme, että sivuston ilme esimerkiksi kuvineen ja tyyleineen heijastaisi myös Kioskia ja halusimme pitää ilmeen nuorekkaana. Fontteina käytimme Ylen fontteja, jotta ne sopisivat formaattiin. Sivustolla olevat pallot heijastavat kuplautumista. 
+
+PEPPI:
+
+Sisällön toteutuksesta:
+
+Toteutin pääasiassa Info-sivua eli sivua, jossa kerrotaan, mistä kampanjassamme on kyse. Minulle oli merkittävästi hyötyä Konstan tekemistä komponenteista (esim. headerja footer). Vaikeinta infosivun toteutuksessa oli saada aseteltua teksti haluamallamme tavalla eli ikään kuin "sik-sak"-muotoon, mutta sain nettiä ja chättiä käyttämällä sommmiteltua ne haluamallani tavalla. Tämän sommittelun suhteen myös skaalautuvuuden pohtiminen oli haastavaa, mutta päätimme asetella tekstit puhelinkoossa päällekkäin. Koin, että onnistuin hyvin myös Käsitteitä-kentän asettelussa, ja Konsta auttoi minua siinä. 
+
+Tein myös palautuksessa vaadittavan ulkoisen komponentin. Sen suhteen oli hieman haastava päättää, minkälaisen komponentin haluaisimme, mutta ajattelimme Scroll Arean sopivan parhaiten jotta lähteet saataisiin nätisti sivulle. Päätimme säilyttää kuitenkin aika paljon alkuperäistä muotoilua, jotta komponentti erottuisi hyvin sivulta ja jotta ulkoisen lähteen muotoilu säilyisi. Koemme, että se kuitenkin sopi erittäin hyvin sivullemme ja nyt lähteet erottuvat selkeästi muun sisällön joukosta. 
+
+Minulla oli myös alussa veikeuksia tehdä kunnollisia committeja tai selittää, mitä oikein tein niissä. Kaikki committini liittyivät kuitenkin infosivuun ja toivon, että kaikki committini kuitenkin näkyvät järkevällä tavalla teillä. 
+
+Tyylivalinnoista ja toteutuksesta:
+
+Figma-suunnitelmasta poikkeavat värit, koska päätimme yhtenäistää niitä. Tämän lisäksi lisäsimme mukaan Lähteet-laatikon. Päätimme myös korostaa esim. kästteet pinkillä, jotta ne korostuisivat hyvin. Lisäsin sivustolle kuvan, jotta sitä jaksaisi katsoa ja jotta siitä tulisi mielenkiintoisempi. 
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -68,3 +103,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+

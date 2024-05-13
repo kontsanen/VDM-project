@@ -3,7 +3,7 @@
     display: flex;
     position: fixed;
     color: white;
-    background-color: none;
+    background-color: #F8EDF100;
     padding: 7px 0px;
     z-index: 1000;
     transition: padding 0.25s ease-in-out, background-color 0.25s linear;

@@ -78,7 +78,6 @@
     padding: 80px 15px;
     gap: 70px;
     font-family: "Yle Next", Arial, Helvetica, sans-serif;
-    font-size: 14;
     font-weight: 400;
     color: #181818;
     box-sizing: border-box;
@@ -139,14 +138,13 @@
     max-width: 300px;
     aspect-ratio: 1 / 1;
     box-sizing: border-box;
-    background-color: none;
+    background: none;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 10px 10px 0px rgba(24, 24, 24, 0.40);
    }
 
 
-  
   
   
   

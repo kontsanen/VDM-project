@@ -1,8 +1,4 @@
-# Getting Started with Create React App
-
-
-
-
+Linkki verkossa pyörivään sivustoon: https://omassa-kuplassa.vercel.app/
 
 
 Ryhmätyön ReadMe alkaa tästä 
@@ -10,13 +6,13 @@ Ryhmätyön ReadMe alkaa tästä
 YLEISESTI:
 
 Jaoimme työtehtävät osittain taitotason tms. mukaan, mutta kuitenkin niin että kaikki tekivät kunnolla töitä. Ajattelimme, että osa ryhmästä keskittyisi kuitenkin enemmän sisältöihin.
-Projektipäälikköyyden nettisivujen osalta otti enimmäkseen Konsta, joka teki Landing Pagen sekä valmiiksi siihen komponentteja esim. Headering, Footerin ja taustan, joita muut ryhmäläiset pystyivät hyödyntämään omilla sivuillaan. 
+Projektipäälikköyyden nettisivujen osalta otti enimmäkseen Konsta, joka teki Landing Pagen ja yleisen sivurungon sekä valmiiksi näihin komponentteja esim. Headerin, Footerin ja taustan, joita muut ryhmäläiset pystyivät hyödyntämään omilla sivuillaan. 
 
 Hommat saatiin hyvin kasaan, vaikka välillä myöhästyimme kaikki yhteisistä ja sovituista deadlineista (joissa oli kuitenkin hyvin joustovaraa). 
 
 SIVUSTON TYYLIVALINNOISTA:
 
-Halusimme, että sivustomme olisi miellyttävän näköinen ja siksi valitsimme vaaleat värit. Koska toteutimme kampanjamme Yle Kioski -formaatin alla, halusimme, että sivuston ilme esimerkiksi kuvineen ja tyyleineen heijastaisi myös Kioskia ja halusimme pitää ilmeen nuorekkaana. Fontteina käytimme Ylen fontteja, jotta ne sopisivat formaattiin. Sivustolla olevat pallot heijastavat kuplautumista. 
+Halusimme, että sivustomme olisi miellyttävän näköinen ja siksi valitsimme vaaleahkot pastellivärit. Koska toteutimme kampanjamme Ylen -formaatin alla, halusimme, että sivuston ilme esimerkiksi kuvineen ja tyyleineen heijastaisi Yleä ja mahdollisesti Yle Kioski -tyyliä. Lisäksi halusimme pitää ilmeen nuorekkaana. Fontteina käytimme Ylen fontteja, jotta ne sopisivat formaattiin. Sivustolla olevat pallot symboloivat kuplautumista. 
 
 PEPPI:
 
@@ -30,79 +26,18 @@ Minulla oli myös alussa veikeuksia tehdä kunnollisia committeja tai selittää
 
 Tyylivalinnoista ja toteutuksesta:
 
-Figma-suunnitelmasta poikkeavat värit, koska päätimme yhtenäistää niitä. Tämän lisäksi lisäsimme mukaan Lähteet-laatikon. Päätimme myös korostaa esim. kästteet pinkillä, jotta ne korostuisivat hyvin. Lisäsin sivustolle kuvan, jotta sitä jaksaisi katsoa ja jotta siitä tulisi mielenkiintoisempi. 
+Figma-suunnitelmasta poikkeavat värit, koska päätimme yhtenäistää niitä. Tämän lisäksi lisäsimme mukaan Lähteet-laatikon. Päätimme myös korostaa esim. käsitteet pinkillä, jotta ne korostuisivat hyvin. Lisäsin sivustolle kuvan, jotta sitä jaksaisi katsoa ja jotta siitä tulisi mielenkiintoisempi. 
 
 
+KONSTA:
 
+Ennen varsinaista koodauksen aloitusta suunnittelin Pepin kanssa sivuston Figmassa. Itse sivuston rakentamisen alkaessa sain vastuulleni react-appin alkukonfigroinnin ja projektin laittamisen liikkeelle. Tein pääasiassa kokonaan sivuston etusivun, johon loin ensiksi komponentit Navbar sekä Footer. Tyylittelin varsinkin navbaria paljon ja määrittelin sen muuttamaan ominaisuuksiaan hieman, kun sivua scrollataan. Rakensin myös sivulle responsiivisen rungon, joka saa aikaan sen, että mikä tahansa sivulla oleva sisältö skaalatuu sopivasti. Nämä osat ovat ne, joiden varaan kaikki muut sivut on myöhemmin rakennettu. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tein etusivulle sen oman rakenteen ja siihen kuuluvat osat, headerin, videoelementin ja postausgridin. Tein myös figmassa sivuston taustan sekä muuta graafista sisältöä eri kohtiin. Otin käyttöön react routerin ja käytännössä monistin etusivusta tyhjän sivun muiden sivujen rakentamista varten. Tein myös navbarista sellaisen version, että se soveltuu myös näille ei-etusivuille. Hoidin sivuston linkkaukset ja navigoinnin kuntoon.
 
-## Available Scripts
+Lisäksi päivittelin ja korjailin pikkijuttuja ja yhtenäistin tyylejä.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Aikaa meni: noin 20h
 
 
 

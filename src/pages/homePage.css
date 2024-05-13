@@ -91,7 +91,7 @@
     flex-wrap: wrap;
     max-width: 500px;
     max-height: 80vh;
-    aspect-ratio: 5 / 7; /*vaihdetaan lopullista videota varten haluttuun aspect ratioon!*/
+    aspect-ratio: 9 / 16; /*vaihdetaan lopullista videota varten haluttuun aspect ratioon!*/
   }
   
   
@@ -100,7 +100,7 @@
     box-shadow: 10px 10px 0px rgba(24, 24, 24, 0.40);
     overflow: hidden;
     height: 100%;
-    max-height: calc((100vw - 20px) * (7 / 5)); /*vaihdetaan lopullista videota varten haluttuun aspect ratioon!*/
+    max-height: calc((100vw - 20px) * (16 / 9)); /*vaihdetaan lopullista videota varten haluttuun aspect ratioon!*/
     flex-wrap: wrap;
   }
   

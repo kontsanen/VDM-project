@@ -36,8 +36,8 @@ function HomePage() {
                 </div>
 
                 <div className='videocontainer'>
-                <video autoplay controls loop onclick="">
-                <source src="https://i.imgur.com/RMIeSpp.mp4" type="video/mp4" />
+                <video autoPlay controls loop onclick="">
+                <source src="/resources/images/vdm-hero-video.mp4" type="video/mp4" />
                 Your browser does not support HTML video.
                 </video>
                 </div>

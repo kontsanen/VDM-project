@@ -75,7 +75,7 @@
    h2 {
     font-family: 'Yle Next Italic';
     font-weight: bold;
-    color: hotpink;
+    color: #A91E76;
     max-width: 650px;
     font-size: 20px;
     position: static;
@@ -101,7 +101,7 @@
    .text-item3{
     font-weight: bold;
     padding-top: 20vh;
-    color: hotpink;
+    color: #A91E76;
     text-align: center;
     font-size: 30px;
    }
@@ -130,7 +130,7 @@
    }
   
   .pink-word{
-    color: hotpink;
+    color: #A91E76;
   }
    
   .bold-word{
@@ -156,7 +156,7 @@
   
   .pink-and-bold-and-cursive-word{
     font-family: 'Yle Next Italic';
-    color: hotpink;
+    color: #A91E76;
     font-weight: bold;
     min-width: 170px;
   }

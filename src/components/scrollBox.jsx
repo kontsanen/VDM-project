@@ -41,8 +41,13 @@ export const ScrollBox = () => {
       <ul style={{ listStyle: 'none' }}> 
             {sources.map((source, index) => (
               <li key={index}>
-                <a className='Tag' href={source.url} target="_blank" rel="noopener noreferrer">
-                  {source.title}
+                <a className='sourceContainer' href={source.url} target="_blank" rel="noopener noreferrer">
+                  <div className='Tag'>
+                    {source.title}
+                  </div>
+                  <div className='sourceArrow'>
+                    <img src='/resources/images/arrow-right3.png' alt='>' height="100%" />
+                  </div>
                 </a>
               </li>
             ))}

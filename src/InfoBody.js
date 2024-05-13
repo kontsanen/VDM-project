@@ -55,6 +55,8 @@ function InfoBody() {
         
     </div>
     );
+
+    
 }
 
 export default InfoBody;

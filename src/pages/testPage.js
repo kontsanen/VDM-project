@@ -10,8 +10,8 @@ const quizData = [
         correctAnswer: 'a',
         feedback: {
             a: "OIKEIN! Medialukutaito kiteytettynä on kykyä ymmärtää mediaa sekä arvioida kriittisesti sen sisältöjä. Tämän testin onkin tarkoitus selvittää, kuinka hyvä medialukutaito sinulla on. Siis eteenpäin!",
-            b: "VÄÄRIN! Nopeus ja tehokkuus eivät ole tärkeitä medialukutaidon kriteerejä. Sen sijaan medialukutaidosta on kyse sisällön. Oikea vastaus oli sen sijaan A. Medialukutaito kiteytettynä on kykyä ymmärtää mediaa sekä arvioida kriittisesti sen sisältöjä. Tämän testin onkin tarkoitus selvittää, kuinka hyvä medialukutaito sinulla on. Siis eteenpäin!",
-            c: "VÄÄRIN! Medialukutaidosta ei ole kyse laadukkaan ja puolueettoman mediasisällön luomisesta, mutta kyvystä tunnistaa sellainen sisältö sekä lähteet, jotka luovat tällaista sisältöä. Oikea vastaus oli sen sijaan A. Medialukutaito kiteytettynä on kykyä ymmärtää mediaa sekä arvioida kriittisesti sen sisältöjä. Tämän testin onkin tarkoitus selvittää, kuinka hyvä medialukutaito sinulla on. Siis eteenpäin!"
+            b: "VÄÄRIN! Nopeus ja tehokkuus eivät ole tärkeitä medialukutaidon kriteerejä - kyse on ymmärtämisestä. Oikea vastaus on sen sijaan A. Medialukutaito kiteytettynä on kykyä ymmärtää mediaa sekä arvioida kriittisesti sen sisältöjä. Tämän testin onkin tarkoitus selvittää, kuinka hyvä medialukutaito sinulla on. Siis eteenpäin!",
+            c: "VÄÄRIN! Medialukutaidosta ei ole kyse laadukkaan ja puolueettoman mediasisällön luomisesta, mutta kyvystä tunnistaa sellainen sisältö sekä lähteet, jotka luovat tällaista sisältöä. Oikea vastaus on sen sijaan A. Medialukutaito kiteytettynä on kykyä ymmärtää mediaa sekä arvioida kriittisesti sen sisältöjä. Tämän testin onkin tarkoitus selvittää, kuinka hyvä medialukutaito sinulla on. Siis eteenpäin!"
         }
     },
     {
@@ -25,14 +25,14 @@ const quizData = [
         }
     },
     {
-        question: "Tekoälyllä on helppo luoda hyvin realistisia kuvia nykyään. Niillä on helppo huijata ihmisiä ja levittää valheellista tietoa. Erotatko aidon kuvan tekoälyn teettämistä kuvista? Valitse seuraavista kuvista AITO kuva.",
+        question: "Nykyään tekoälyllä on helppo luoda hyvin realistisia kuvia. Niillä on helppo huijata ihmisiä ja levittää valheellista tietoa. Erotatko aidon kuvan tekoälyn tekemistä kuvista? Valitse seuraavista kuvista AITO kuva.",
         image: "/testai.jpeg",
         options: { a: "Metsäpolku", b: "Merinäkymä", c: "Auringonlasku" },
         correctAnswer: 'b',
         feedback: {
-            a: "VÄÄRIN! Tämä on tekoälyn tekemä kuva. Tekoälyn tekemän kuvan voi usein tunnistaa muun muassa yksityiskohtien puutteista, omituisesta valaistuksesta tai heijastuksesta tai ei-järkeenkäyvistä kohdista.",
+            a: "VÄÄRIN! Tämä on tekoälyn tekemä kuva. Tekoälyn tekemän kuvan voi usein tunnistaa muun muassa yksityiskohtien puutteista, omituisesta valaistuksesta tai heijastuksesta tai ei-järkeenkäyvistä kohdista. Sen sijaan oikea vastaus on B - merinäkymä.",
             b: "OIKEIN! Tekoälyn tekemän kuvan voi usein tunnistaa muun muassa yksityiskohtien puutteista, omituisesta valaistuksesta tai heijastuksesta tai ei-järkeenkäyvistä kohdista.",
-            c: "VÄÄRIN! Tämä on tekoälyn tekemä kuva. Tekoälyn tekemän kuvan voi usein tunnistaa muun muassa yksityiskohtien puutteista, omituisesta valaistuksesta tai heijastuksesta tai ei-järkeenkäyvistä kohdista."
+            c: "VÄÄRIN! Tämä on tekoälyn tekemä kuva. Tekoälyn tekemän kuvan voi usein tunnistaa muun muassa yksityiskohtien puutteista, omituisesta valaistuksesta tai heijastuksesta tai ei-järkeenkäyvistä kohdista. Sen sijaan oikea vastaus on B - merinäkymä."
         }
     },
     {
@@ -41,14 +41,14 @@ const quizData = [
         options: { a: "Nasa on kuvannut videon mustasta aukosta.", b: "Nasa on onnistunut matkaamaan mustaan aukkoon.", c: "Ei voida sanoa kumpaakaan edellä mainituista." },
         correctAnswer: 'c',
         feedback: {
-            a: "VÄÄRIN! Älä anna clickbait-otsikoiden johtaa harhaan! Nasa ei ole onnistunut matkaamaan mustaan aukkoon tai lähelle sitä eikä ole kuvannut videota mustaa aukosta.",
-            b: "VÄÄRIN! Älä anna clickbait-otsikoiden johtaa harhaan! Nasa ei ole onnistunut matkaamaan mustaan aukkoon tai lähelle sitä eikä ole kuvannut videota mustaa aukosta.",
-            c: "OIKEIN! Nasa ei ole onnistunut matkaamaan mustaan aukkoon tai lähelle sitä eikä ole kuvannut videota mustaa aukosta."
+            a: "VÄÄRIN! Älä anna clickbait-otsikoiden johtaa harhaan! Nasa ei ole onnistunut matkaamaan mustaan aukkoon tai lähelle sitä eikä ole kuvannut videota mustaa aukosta. Kuvassa sanotaan heti uutisotsikon alla, että video on visualisointia ja supertietokoneen tekemä.",
+            b: "VÄÄRIN! Älä anna clickbait-otsikoiden johtaa harhaan! Nasa ei ole onnistunut matkaamaan mustaan aukkoon tai lähelle sitä eikä ole kuvannut videota mustaa aukosta. Kuvassa sanotaan heti uutisotsikon alla, että video on visualisointia ja supertietokoneen tekemä.",
+            c: "OIKEIN! Nasa ei ole onnistunut matkaamaan mustaan aukkoon tai lähelle sitä eikä ole kuvannut videota mustaa aukosta. Kuvassa sanotaan heti uutisotsikon alla, että video on visualisointia ja supertietokoneen tekemä."
         }
     },
     {
         question: "Onko seuraava lähde lähtökohtaisesti luotettava?",
-        image: "/description.png",
+        paragraph: "Uutisartikkeli kertoo uudesta markkinoille saapuneesta elektroniikkatuotteesta. Artikkelin on kirjoittanut freelance-toimittaja, jolla on asiantuntijatietämystä elektroniikasta. Tekstissä kerrotaan tuotteen ylivertaisuudesta verrattuna kilpailijoiden tuotteisiin. Siinä myös hyödynnetään asianmukaisin viittauksin dataa, tilastoja ja diagrammeja, jotka tukevat kirjoittajaa. Lisäksi artikkelissa listataan muutamia suuria somevaikuttajia, jotka käyttävät tuotetta ja suosittelevat sitä seuraajakunnalleen. Lopussa mainitaan, että artikkeli on osa laajempaa elektroniikkayrityksen rahoittamaa kampanjaa.",
         options: { a: "Kyllä.", b: "Ei.", c: "Ei voida sanoa." },
         correctAnswer: 'b',
         feedback: {
@@ -64,12 +64,12 @@ const quizData = [
         feedback: {
             a: "OIKEIN! Myös luotettava media saattaa vahingossa levittää valeuutisia eteenpäin. Kun julkaisun sisältämä informaatio paljastuu virheelliseksi, virheet korjataan ja uutinen päivitetään mahdollisimman pian – tätä tapahtumaa kutsutaan oikaisuksi.",
             b: "VÄÄRIN! Misinformaatio tarkoittaa TAHATTOMASTI levitettyä väärää tietoa, kun taas disinfromaatio tarkoittaa TAHALLISESTI levitettyä väärää tietoa. Käsitteet sekoitetaan usein keskenään, siksi niiden ero on hyvä tietää. Oikea vastaus olisi ollut A. Myös luotettava media saattaa vahingossa levittää valeuutisia eteenpäin. Kun julkaisun sisältämä informaatio paljastuu virheelliseksi, virheet korjataan ja uutinen päivitetään mahdollisimman pian – tätä tapahtumaa kutsutaan oikaisuksi.",
-            c: "VÄÄRIN! Käyttäjän toimintaa voidaan evästeiden kieltämisestä huolimatta silti seurata monin muin keinoin. Vaikka siis kieltäisit evästeet sivulta, saamasi sisältö on silti todennäköisesti hyvin personoitua.Oikea vastaus olisi ollut A. Myös luotettava media saattaa vahingossa levittää valeuutisia eteenpäin. Kun julkaisun sisältämä informaatio paljastuu virheelliseksi, virheet korjataan ja uutinen päivitetään mahdollisimman pian – tätä tapahtumaa kutsutaan oikaisuksi."
+            c: "VÄÄRIN! Käyttäjän toimintaa voidaan evästeiden kieltämisestä huolimatta silti seurata monin muin keinoin. Vaikka siis kieltäisit evästeet sivulta, saamasi sisältö on silti todennäköisesti hyvin personoitua. Oikea vastaus olisi ollut A. Myös luotettava media saattaa vahingossa levittää valeuutisia eteenpäin. Kun julkaisun sisältämä informaatio paljastuu virheelliseksi, virheet korjataan ja uutinen päivitetään mahdollisimman pian – tätä tapahtumaa kutsutaan oikaisuksi."
         }
     },
     {
         question: "Mikä seuraavista väitteistä EI pidä paikkansa?",
-        options: { a: "Valeuutinen on tarkoituksellisesti väärää ja harhaanjohtavaa tietoa sisältävää raportointia.", b: "Propaganda on tiedon järjestelmällistä levitystä, jolla pyritään vaikuttamaan mielipiteisiin laajalla mittakaavalla.", c: "Luotettavan median kolumni (esimerkiksi HS) on lähtökohtaisesti luotettavampi lähde kuin tutkivan journalismin artikkeli." },
+        options: { a: "Valeuutinen on tarkoituksellisesti väärää ja harhaanjohtavaa tietoa sisältävää raportointia.", b: "Propaganda on tiedon järjestelmällistä levitystä, jolla pyritään vaikuttamaan mielipiteisiin laajalla mittakaavalla.", c: "Luotettavan median kolumni (esimerkiksi Helsingin Sanomat) on lähtökohtaisesti luotettavampi lähde kuin tutkivan journalismin artikkeli." },
         correctAnswer: 'c',
         feedback: {
             a: "VÄÄRIN! Väite pitää kyllä paikkansa. Sen sijaan oikea vastaus on C. Kolumnit ovat mielipidekirjoituksia, jotka sisältävät kirjoittajan omia näkemyksiä ja arvioita. Eli vaikka kolumni julkaistaisiin luotettavassa mediassa, se sisältää subjektiivisia mielipiteitä, eikä pyri välttämättä objektiivisuuteen. Tutkiva journalismi pyrkii tuomaan julkisuuteen piilossa olevia totuuksia, korruptiota ja muita yhteiskunnallisesti merkittäviä asioita objektiivisesti tutkimustyön kautta. Täten siis tutkiva journalismin artikkeli on lähtökohtaisesti kolumnia luotettavampi lähde.",
@@ -79,7 +79,7 @@ const quizData = [
     },
     {
         question: "Seuraavassa on kuvaukset kolmen eri henkilön mediankulutuksesta. Valitse vaihtoehto, joka on medialukutaidon ja kuplautumisen ehkäisemisen kannalta paras tapa kuluttaa mediaa. ",
-        options: { a: "Konsta seuraa uutisia eri aiheista aktiivisesti Iltalehdestä. Hän on omistautunut uutisten lukemiselle sen verran, että on tilannut Iltalehden maksullisen sisällön. Hän jakaa myös paljon Iltalehden uutisia sosiaalisessa mediassa ja keskustelee näistä muun muassa kavereidensa kanssa heidän vastatessa näihin.", b: "Ohto seuraa uutisia säännöllisesti jonkin verran lähes joka päivä. Hän selaa uutisia kaikista aihepiireistä sieltä kuin täältä: MTV:ltä, IS:stä, TikTokista ja paperisista sanomalehdistä esimerkiksi. Hän myös tykkää puhua uutisista ja maailman tapahtumista muiden kanssa, kuten työpaikallaan.", c: "Peppi käyttää sosiaalista mediaa monta tuntia päivittäin ja saakin uutisensa pääosin sosiaalisen mediansa uutissyötteestä. Hän käyttää kuitenkin monia eria somealustoja. Syötteeseensä hän saa muun muassa uutisia niin esimerkiksi Yleltä ja Helsingin Sanomilta kuin hänen seuraamiltaan vaikuttajilta ja aktivisteilta." },
+        options: { a: "Konsta seuraa uutisia eri aiheista aktiivisesti Iltalehdestä. Hän on omistautunut uutisten lukemiselle sen verran, että on tilannut Iltalehden maksullisen sisällön. Hän jakaa myös paljon Iltalehden uutisia sosiaalisessa mediassa ja keskustelee näistä muun muassa kavereidensa kanssa heidän vastatessa näihin.", b: "Ohto seuraa uutisia säännöllisesti jonkin verran lähes joka päivä. Hän selaa uutisia kaikista aihepiireistä sieltä kuin täältä: MTV:ltä, IS:stä, TikTokista ja paperisista sanomalehdistä esimerkiksi. Hän myös tykkää puhua uutisista ja maailman tapahtumista muiden kanssa, kuten työpaikallaan.", c: "Peppi käyttää sosiaalista mediaa monta tuntia päivittäin ja saakin uutisensa pääosin sosiaalisen mediansa uutissyötteestä. Hän käyttää kuitenkin monia eri somealustoja. Syötteeseensä hän saa uutisia niin esimerkiksi Yleltä ja Helsingin Sanomilta kuin hänen seuraamiltaan vaikuttajilta ja aktivisteilta." },
         correctAnswer: 'b',
         feedback: {
             a: "VÄÄRIN! Konstan aktiivinen uutisten seuraaminen sekä omistautuneisuus ovat hyviä asioita, mutta hän lukee uutisia pelkästään yhdestä lähteestä, mikä saattaa yksipuolistaa paljonkin hänen näkemyksiään. Oikea vastaus olisi ollut B. Ohto lukee uutisia säännöllisesti useista eri lähteistä ja puhuu uutisista eri ihmisten kanssa, jolloin hän saa mahdollisimman monipuolisen kuvan asioista ja tapahtumista. ",
@@ -147,6 +147,11 @@ function TestPage() {
                                 <img src={quizData[currentQuestionIndex].image} alt="Supplementary content" />
                             </div>
                         )}
+                        {quizData[currentQuestionIndex].paragraph && (
+                            <div className="paragraph-container">
+                                {quizData[currentQuestionIndex].paragraph}
+                            </div>
+                        )}
                         <div className="answer-section">
                             {Object.entries(quizData[currentQuestionIndex].options).map(([key, value]) => (
                                 <div className="option" key={key}>
@@ -175,10 +180,16 @@ function TestPage() {
                     <div className="results-section">
                         <div className="result-message">
                             <h1>Tuloksesi: {score}/8</h1> <br/><br/>
-                            {score >= 0 && score <= 3 && "Voi ei! Sinulla on heikko medialukutaito. Et välttämättä tajua paljoa mediasta, mutta ei hätää: koskaan ei ole liian myöhäistä opetella puhaltamaan omia kuplia. Meidän sivuillamme on runsaasti hyödyllistä tietoa ja teemme runsaasti sisältöä, jolla pääset alkuun medialukutaitosi kehittämisessä. Tsekkaa meidän infopaketti tästä. Ota haltuun meidän somet: Instagram: @omassakuplassa TikTok @omassakuplassa Me Ylellä luomme objektiivista ja puolueetonta tuoretta sisältöä uusista tapahtumista kotimaassa sekä maailmalla. Meidän uutisia lukemalla edes vähän ja säännöllisesti pääset hyvin jo ajantasalle ympärillä tapahtuvasta.Kannattaa tietenkin lukea muualtakin monipuolisesti uutisia!"}
-                            {score >= 4 && score <= 5 && "Ei paha! Sinulla on ihan OK medialukutaito. Medialukutaitosi on ihan OK, mutta siinä on kehitettävän varaa. Et ehkä tiedä kaikkea, mutta tiedät jo jotain mediasta sekä sen kuluttamisesta – se on hyvä alku. Voisit hyötyä ja kehittyä paljon meidän sivuillemme sekä muualle sosiaaliseen mediaan luomastamme sisällöstä.Tsekkaa meidän infopaketti tästä.Ota haltuun meidän somet:Instagram: @omassakuplassaTikTok @omassakuplassaMuista suhtautua kriittisesti lukemaasi sisältöön sekä sen luotettavuuteen ja kuluttaa mediaa eri lähteistä eikä vain parista. Me Ylellä pyrimme luomaan objektiivista ja puolueetonta tuoretta sisältöä uusista tapahtumista kotimaassa sekä maailmalla."}
-                            {score >= 6 && score <= 7 && "Jee! Sinulla on hyvä medialukutaito!   Tiedät jo paljon mediasta ja ymmärrät sitä hyvin. Kehitettävää on enimmillään vähän. Kiinnitä huomiota jatkossa mediaa lukiessasi etenkin niiden kysymyksien aspekteihin, jotka sait väärin. Hienosäätelyä medialukutaitoon liittyen voit oppia muun muassa meidän informatiivisesta kontentista somessa.   Ota haltuun meidän somet:    Instagram: @omassakuplassa  TikTok @omassakuplassa" }
-                            {score === 8 && ( <> Onnittelut! Sinulla on erinomainen medialukutaito. <br/><br/> Sinulla on selvästi homma täysin hallussa. Osaat nähdä klikkiotsikoiden taakse, tunnistaa luotettavan tai epäluotettavan lähteen, suhtautua kuluttamaasi sisältöön kriittisesti ja pysyä kaukana kuplasta. Tiedät niin median hyvät kuin pahat, osaat soveltaa niitä mediankäytössäsi ja puhallat omat kuplasi! </> )}
+                            {score >= 0 && score <= 3 && ( <> Voi ei! Sinulla on heikko medialukutaito. <br/><br/> Et välttämättä tajua paljoa mediasta, mutta ei hätää: koskaan ei ole liian myöhäistä opetella puhaltamaan omia kuplia. Me Ylellä luomme objektiivista ja puolueetonta journalismia uusista tapahtumista kotimaassa sekä maailmalla. Meidän uutisia lukemalla edes vähän ja säännöllisesti pääset hyvin jo ajantasalle ympärillä tapahtuvasta. Kannattaa tietenkin lukea muualtakin monipuolisesti uutisia! </> )}
+                            {score >= 4 && score <= 5 && ( <> Ei paha! Sinulla on ihan OK medialukutaito. <br/><br/> Medialukutaitosi on ihan OK, mutta siinä on kehitettävän varaa. Et ehkä tiedä kaikkea, mutta tiedät jo jotain mediasta sekä sen kuluttamisesta – se on hyvä alku. Voisit hyötyä ja kehittyä paljon meidän sivuillemme sekä muualle sosiaaliseen mediaan luomastamme sisällöstä. Me Ylellä pyrimme luomaan objektiivista ja puolueetonta journalismia uusista tapahtumista kotimaassa sekä maailmalla. </> )}
+                            {score >= 6 && score <= 7 && ( <> Jee! Sinulla on hyvä medialukutaito! <br/><br/> Tiedät jo paljon mediasta ja ymmärrät sitä hyvin. Kehitettävää on vain jonkin verran. Kiinnitä huomiota jatkossa mediaa lukiessasi etenkin niiden kysymyksien aspekteihin, jotka sait väärin. Hienosäätelyä medialukutaitoon liittyen voit oppia muun muassa meidän informatiivisesta kontentista somessa. </> )}
+                            {score === 8 && ( <> Onnittelut! Sinulla on erinomainen medialukutaito. <br/><br/> Sinulla on selvästi homma täysin hallussa. Osaat nähdä klikkiotsikoiden taakse, tunnistaa luotettavan tai epäluotettavan lähteen, suhtautua kuluttamaasi sisältöön kriittisesti ja pysyä kaukana kuplautumisesta. Tiedät niin median hyvät kuin pahat, osaat soveltaa niitä mediankäytössäsi ja puhallat omat kuplasi!  </> )}
+                            <br/><br/><br/>
+                            Tsekkaa myös meidän infopaketti! Ja ota haltuun meidän somet: 
+                            <br/><br/>
+                            Instagram: @omassakuplassa
+                            <br/>
+                            TikTok: @omassakuplassa
                         </div>
                     </div>
                 )}
